@@ -1,7 +1,5 @@
 ---
-<!-- permalink: /talks/2012-03-01-talk-1
-date: 2012-03-01
-location: "San Francisco, California" -->
+permalink: /portfolio/2012-03-01-portfolio-1
 title: "Openml topic model"
 excerpt: "Worked on topic modelling for discovering abstract topics and  grouping OpenML datasets using state-of-the-art techniques. [github](https://github.com/sahithyaravi1493/openml-topic-model})<br/><img href='https://github.com/sahithyaravi1493/openml-topic-model'>"
 collection: portfolio
