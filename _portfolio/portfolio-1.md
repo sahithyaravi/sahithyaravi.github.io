@@ -1,4 +1,10 @@
 ---
+collection: talks
+type: "Talk"
+permalink: /talks/2012-03-01-talk-1
+venue: "UC San Francisco, Department of Testing"
+date: 2012-03-01
+location: "San Francisco, California"
 title: "Openml topic model"
 excerpt: "Short description of portfolio item number 1<br/><img href='https://github.com/sahithyaravi1493/openml-topic-model'>"
 collection: portfolio
