@@ -10,10 +10,10 @@ paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8904109'
 
 ---
 
+In this paper, we formulate a constrained convex optimization problem in the domain of Internet of things, specifically - Narrow Band IoT. The optimization strategy aims to allocate different coverage enhancement features in such a way that the latency is minimum and the reliability is maintained. We attempt to solve this problem analytically and verify our solution using network simulations.
+
 [Download paper here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8904109) 
 
-
-In this paper, we formulate a constrained convex optimization problem in the domain of Internet of things, specifically - Narrow Band IoT. The optimization strategy aims to allocate different coverage enhancement features in such a way that the latency is minimum and the reliability is maintained. We attempt to solve this problem analytically and verify our solution using network simulations.
 *Keywords: Constrained optimization, Lagrange optimization, Internet of Things*
 
 
