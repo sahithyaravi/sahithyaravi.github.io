@@ -7,6 +7,8 @@ excerpt: 'Sahithya Ravi, Pouria Zand
 date: 2019-09-08
 venue: '2019 IEEE 30th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8904109'
+description: '
+In this paper, we formulate a constrained convex optimization problem in the domain of Internet of things, specifically - Narrow Band IoT. The optimization strategy aims to allocate different coverage enhancement features in such a way that the latency is minimum and the reliability is maintained. We attempt to solve this problem analytically and verify our solution using network simulations. *Keywords: Constrained optimization, Lagrange optimization, Internet of Things*'
 
 ---
 
