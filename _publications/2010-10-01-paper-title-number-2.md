@@ -2,7 +2,7 @@
 title: "Openml-python: an extensible python api for openml"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Matthias Feurer, Jan N. van Rijn, Arlind Kadra, Pieter Gijsbers, Neeratyoy Mallik, Sahithya Ravi, Andreas Müller, Joaquin Vanschoren and Frank Hutter. My contributions can be found [here] https://github.com/openml/openml-python/graphs/contributors.
+excerpt: 'Matthias Feurer, Jan N. van Rijn, Arlind Kadra, Pieter Gijsbers, Neeratyoy Mallik, Sahithya Ravi, Andreas Müller, Joaquin Vanschoren and Frank Hutter. My contributions can be found [here](https://github.com/openml/openml-python/graphs/contributors).
 
 '
 date: 2021-08-30
