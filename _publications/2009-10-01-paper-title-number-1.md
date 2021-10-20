@@ -8,7 +8,7 @@ excerpt: 'Sahithya Ravi, Samaneh Khoshrou and Mykola Pechenizkiy'
 date: 2020-10-30
 venue: 'preprint'
 paperurl: 'https://arxiv.org/pdf/2011.14871.pdf'
-description: 'We attempt to make covid severity classification more explainable by a descriptive clustering method.'
+description: 'We attempt to make covid severity classification more explainable by a descriptive clustering method. *Keywords: Interpretable Machine learning, human-in-the-loop*'
 
 ---
 We attempt to make covid severity classification more explainable by a descriptive clustering method.
