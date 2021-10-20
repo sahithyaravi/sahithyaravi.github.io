@@ -13,11 +13,13 @@ paperurl: 'https://www.jmlr.org/papers/volume22/19-920/19-920.pdf'
 
 ---
 
+
+*Keywords: Machine learning, Open data science, AutoML*
+
 The paper describes the OpenML Python package which is the python framwork of the popular OpenML.org platform and used extensively by many studies in the field of AutoML and meta-learning.
 
 [Download paper here](https://www.jmlr.org/papers/volume22/19-920/19-920.pdf) 
 
-*Keywords: Machine learning, Open data science, AutoML*
 
 
 
