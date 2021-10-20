@@ -4,7 +4,8 @@ Radiologist Assistant in COVID-19 Streamline
 Diagnostic"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'Sahithya Ravi, Samaneh Khoshrou and Mykola Pechenizkiy                                                                                                
+excerpt: 'Sahithya Ravi, Samaneh Khoshrou and Mykola Pechenizkiy    
+\
 Visual descriptive clustering for covid-19 chest x-rays '
 date: 2020-10-30
 venue: 'preprint'
