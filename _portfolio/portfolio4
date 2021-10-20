@@ -1,7 +1,0 @@
----
-permalink: /portfolio/2012-03-01-portfolio-4
-title: "Active meta learning"
-excerpt: "I am working on building ecient meta-learning approaches for automated machine learning (auto-sklearn) in order
-to selectively acquire training data for meta learning."
-collection: portfolio
----
