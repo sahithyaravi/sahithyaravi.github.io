@@ -8,6 +8,7 @@ excerpt: 'Matthias Feurer, Jan N. van Rijn, Arlind Kadra, Pieter Gijsbers, Neera
 date: 2021-08-30
 venue: 'Journal of Machine Learning Research (JMLR)'
 paperurl: 'https://www.jmlr.org/papers/volume22/19-920/19-920.pdf'
+description: 'The paper describes the OpenML Python package which is the python framwork of the popular OpenML.org platform and used extensively by many studies in the field of AutoML and meta-learning. *Keywords: Machine learning, Open data science, AutoML*'
 
 
 
