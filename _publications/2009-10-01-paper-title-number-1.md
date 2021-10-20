@@ -14,3 +14,5 @@ We attempt to make covid severity classification more explainable by a descripti
 
 [Download preprint here](https://arxiv.org/pdf/2011.14871.pd)
 
+*Keywords: Interpretable Machine learning, human-in-the-loop*
+
