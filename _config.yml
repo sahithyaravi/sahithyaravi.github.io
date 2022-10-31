@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sahithya Ravi"
 title_separator          : "-"
 name                     : &name "Sahithya Ravi"
-description              : &description "I am an AI research engineer. I work in the machine learning group at TU Eindhoven. I work towards democratizing AI by making it more open, collaborative, reproducible and explainable."
+description              : &description ""
 url                      : https://sahithyaravi1493.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sahithyaravi1493/sahithyaravi1493.github.io"
@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Sahithya Ravi"
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   bio              : "NLP researcher/ML engineer"
   location         : "Vancouver"
   employer         :
