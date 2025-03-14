@@ -4,10 +4,14 @@ permalink: /publications/
 author_profile: true
 ---
 
+## 2025
+
 **Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events**  
   Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi<sup>◆</sup>**, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
-  CVPR 2024
+  CVPR 2025
   [(link)](https://arxiv.org/abs/2412.05725)
+
+## 2024
 
 **From Local Concepts to Universals: Evaluating the Multicultural Understanding of Vision-Language Models**  
   Mehar Bhatia, **Sahithya Ravi<sup>◆</sup>**, Aditya Chinchure<sup>◆</sup>, Eunjeong Hwang, and Vered Shwartz  
@@ -22,6 +26,8 @@ author_profile: true
 **Empowering Air Travelers: A Chatbot for Canadian Air Passenger Rights**  
   Maksym Taranukhin, **Sahithya Ravi**, Gábor Lukács, Evangelos Milios, and Vered Shwartz  
   *NLLP 2024*
+
+## 2023
 
 **COMET-M: Reasoning about Multiple Events in Complex Sentences**  
   **Sahithya Ravi**, Raymond Ng, Vered Shwartz  
@@ -43,6 +49,7 @@ author_profile: true
   *Findings of EMNLP 2023*  
   [(link)](https://arxiv.org/pdf/2311.01684.pdf)
 
+## 2020
 **OpenML-Python: An Extensible Python API for OpenML**  
   M. Feurer, **S. Ravi**, et al.  
   *Journal of Machine Learning Research (JMLR), 2020*  
