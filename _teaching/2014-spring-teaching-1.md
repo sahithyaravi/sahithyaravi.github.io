@@ -10,5 +10,5 @@ location: "Vancouver, Canada"
 
 
 
--Teaching Assitant
+- Teaching Assitant
 - Guest lecture in 2024 and 2023 on Vision and Language Reasoning
