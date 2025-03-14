@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Select Publications (◆-Equal Contribution)
+## Select Publications 
 
 **Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events**  
   Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi<sup>◆</sup>**, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
@@ -50,6 +50,7 @@ author_profile: true
   *Journal of Machine Learning Research (JMLR), 2020*  
   [(link)](https://arxiv.org/pdf/1911.02490.pdf)
 
+(◆-Equal Contribution)
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>

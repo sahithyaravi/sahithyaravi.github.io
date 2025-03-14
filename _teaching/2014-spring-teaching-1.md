@@ -1,20 +1,14 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
+title: "CPSC 532V: Commonsense Reasoning in Natural Language Processing"
+collection: teaching 
+type: "Graduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "UBC, Computer Science"
+date: 2021-2024
+location: "Vancouver, Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
 
-Heading 2
-======
-
-Heading 3
-======
+-Teaching Assitant
+- Guest lecture in 2024 and 2023 on Vision and Language Reasoning
