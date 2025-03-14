@@ -7,7 +7,7 @@ author_profile: true
 ## Select Publications
 
 **Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events**  
-  *Aditya Chinchure*, **Sahithya Ravi***, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
+  Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi <sup>◆</sup> **, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
   *CVPR 2024*  
   [(link)](https://arxiv.org/abs/2412.05725)
 
@@ -31,7 +31,7 @@ author_profile: true
   [(link)](https://www.semanticscholar.org/reader/d0f108b8f5fcfb81e4354b498f3f8491740ece7e)
 
 **VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge**  
-  **Sahithya Ravi***, *Aditya Chinchure***, Renjie Lio, Vered Shwartz, and Leonid Sigal  
+  **Sahithya Ravi<sup>◆</sup>**, Aditya Chinchure<sup>◆</sup>, Renjie Lio, Vered Shwartz, and Leonid Sigal  
   *Proceedings of WACV 2023*  
   [(link)](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf)
 
