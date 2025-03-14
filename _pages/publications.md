@@ -4,15 +4,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Select Publications
+## Select Publications (◆-Equal Contribution)
 
 **Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events**  
-  Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi <sup>◆</sup> **, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
-  *CVPR 2024*  
+  Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi<sup>◆</sup>**, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
+  CVPR 2024
   [(link)](https://arxiv.org/abs/2412.05725)
 
 **From Local Concepts to Universals: Evaluating the Multicultural Understanding of Vision-Language Models**  
-  Mehar Bhatia, **Sahithya Ravi**, Aditya Chinchure, Eunjeong Hwang, and Vered Shwartz  
+  Mehar Bhatia, **Sahithya Ravi<sup>◆</sup>**, Aditya Chinchure<sup>◆</sup>, Eunjeong Hwang, and Vered Shwartz  
   *EMNLP 2024*  
   [(link)](https://arxiv.org/abs/2407.00263)
 
