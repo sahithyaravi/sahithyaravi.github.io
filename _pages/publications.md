@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Select Publications 
-
 **Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events**  
   Aditya Chinchure<sup>◆</sup>, **Sahithya Ravi<sup>◆</sup>**, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal  
   CVPR 2024
