@@ -1,8 +1,9 @@
 ---
+title: "About"
 permalink: /about/
-excerpt: "About me"
 author_profile: false
 ---
+
 
 Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) CS advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). My research focuses on the development of algorithms aimed at improving the reasoning capabilities of language/vision-language models.
 
