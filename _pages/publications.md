@@ -14,7 +14,7 @@ author_profile: true
   .pub-year {
     font-size: 1.5em;
     font-weight: bold;
-    color: #f3e3e3;
+    color: #789DBC;
     border-bottom: 2px solid #789DBC;
     margin-top: 20px;
     padding-bottom: 5px;
