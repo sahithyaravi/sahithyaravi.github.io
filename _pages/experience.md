@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 permalink: /experience/
-author_profile: false
+author_profile: true
 ---
 
 <style>
@@ -52,7 +52,7 @@ author_profile: false
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: #FFE3E3;
   }
 
   /* Experience logo */
