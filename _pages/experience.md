@@ -19,7 +19,7 @@ author_profile: true
   width: 4px;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 20%;
   background: #ccc;
   transform: translateX(-50%);
 }
