@@ -9,7 +9,7 @@ author_profile: true
 .timeline {
   position: relative;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 /* Vertical line */
@@ -30,7 +30,7 @@ author_profile: true
   align-items: center;
   justify-content: space-between;
   position: relative;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 /* Timeline symbol (diamond) */
@@ -58,7 +58,6 @@ author_profile: true
   flex: 3;
   display: flex;
   align-items: center;
-  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #f3e3e3;
