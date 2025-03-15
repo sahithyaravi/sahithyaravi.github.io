@@ -57,7 +57,6 @@ author_profile: true
   }
 </style>
 
-## Publications  
 
 <div class="publications-container">
   
