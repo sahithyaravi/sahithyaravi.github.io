@@ -1,6 +1,7 @@
 ---
 title: "Experience"
-author_profile: true
+permalink: /experience/
+author_profile: false
 ---
 
 <style>

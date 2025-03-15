@@ -1,6 +1,7 @@
 ---
 title: "Publications"
-author_profile: true
+permalink: /publications/
+author_profile: false
 ---
 
 ## 2025
