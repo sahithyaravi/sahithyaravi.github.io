@@ -6,16 +6,29 @@
    Top Navigation Bar
    ========================================================================== */
 
-   .top-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #AEC6CF; /* Soft pastel blue */
-    padding: 12px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+.top-nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: #AEC6CF; /* Soft pastel blue */
+padding: 12px 0;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+z-index: 1000;
 }
+
+/* Ensure nav links stay in the top bar */
+.greedy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  /* Hide unexpected elements */
+  .hidden-links {
+    display: none !important;
+  }
 
 .nav-container {
     display: flex;
