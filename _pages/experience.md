@@ -106,7 +106,7 @@ author_profile: false
 
 <div class="timeline">
   <!-- Experience 1 -->
-  <div class="timeline-item left">
+  <div class="timeline-item right">
     <div class="experience-card">
       <img src="../images/meta_logo.png" alt="FAIR Logo">
       <div class="experience-details">
@@ -134,7 +134,7 @@ author_profile: false
   </div>
 
   <!-- Experience 3 -->
-  <div class="timeline-item left">
+  <div class="timeline-item right">
     <div class="experience-card">
       <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
       <div class="experience-details">
@@ -162,7 +162,7 @@ author_profile: false
   </div>
 
   <!-- Experience 5 -->
-  <div class="timeline-item left">
+  <div class="timeline-item right">
     <div class="experience-card">
       <img src="../images/openml_logo.png" alt="OpenML Logo">
       <div class="experience-details">
