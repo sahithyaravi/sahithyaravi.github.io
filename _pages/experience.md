@@ -10,7 +10,6 @@ author_profile: true
   position: relative;
   max-width: 1000px;
   margin: 50px auto;
-  padding-left: 10%;
 }
 
 /* Vertical line */
@@ -27,14 +26,14 @@ author_profile: true
 
 /* Individual timeline items */
 .timeline-item {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   margin: 30px 0;
 }
 
-/* Timeline dot (updated to a diamond shape) */
+/* Timeline symbol (diamond) */
 .timeline-item::before {
   content: '\25C6'; /* Unicode for a diamond (◆) */
   position: absolute;
@@ -46,15 +45,15 @@ author_profile: true
   padding: 2px;
 }
 
-/* Left side (year) */
+/* Left side (Year) */
 .timeline-year {
   flex: 1;
   text-align: right;
   font-weight: bold;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
-/* Right side (experience card) */
+/* Right side (Experience card) */
 .experience-card {
   flex: 3;
   display: flex;
@@ -63,6 +62,7 @@ author_profile: true
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #f3e3e3;
+  margin-left: 30px; /* Ensures spacing from the timeline */
 }
 
 /* Experience logo */
@@ -72,6 +72,7 @@ author_profile: true
   object-fit: contain;
   margin-right: 15px;
 }
+
 </style>
 
 <div class="timeline">
