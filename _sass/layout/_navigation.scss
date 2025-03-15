@@ -1,64 +1,59 @@
-
 /* ==========================================================================
    NAVIGATION
    ========================================================================== */
 
-   .top-nav,
-   .greedy-nav,
-   .nav-container {
-       position: fixed;
-       top: 0;
-       left: 0;
-       width: 100%;
-       background: #6d9191 !important; /* Override any conflicting styles */
-       padding: 12px 0;
-       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-       z-index: 1000;
-   }
-   
-   .nav-container a,
-   .greedy-nav a {
-       text-decoration: none;
-       color: black !important; /* Ensures black text */
-       font-size: 18px;
-       font-weight: 500;
-       padding: 10px 15px;
-       transition: color 0.3s ease, border-bottom 0.3s ease;
-       background: #6d9191 !important;
-   }
-   
-   .nav-container a:hover,
-   .greedy-nav a:hover {
-       color: black !important; /* Keep hover text black */
-       border-bottom: 2px solid black;
-   }
-   
+   :root {
+    --navbar-background-color: #B4B4B8; /* Define navbar background color */
+}
 
-/* Add space below the navbar so content isn't hidden */
+.top-nav,
+.greedy-nav,
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    background: var(--navbar-background-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Navigation links */
+.nav-container a,
+.greedy-nav a {
+    text-decoration: none;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-container a:hover,
+.greedy-nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Add space below the navbar */
 body {
     padding-top: 65px;
 }
 
-/*
-   Breadcrumb navigation links
+/* ==========================================================================
+   BREADCRUMB NAVIGATION
    ========================================================================== */
 
 .breadcrumbs {
     @include container;
     @include clearfix;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 2em;
-    padding-right: 2em;
+    margin: 0;
+    padding: 0 2em;
     font-family: $sans-serif;
-    -webkit-animation: intro 0.3s both;
-            animation: intro 0.3s both;
-    -webkit-animation-delay: 0.30s;
-            animation-delay: 0.30s;
+    animation: intro 0.3s both 0.30s;
 
     @include breakpoint($large) {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding: 0 1em;
     }
 
     @include breakpoint($x-large) {
@@ -88,8 +83,8 @@ body {
     }
 }
 
-/*
-   Post pagination navigation links
+/* ==========================================================================
+   PAGINATION
    ========================================================================== */
 
 .pagination {
@@ -106,22 +101,19 @@ body {
     }
 
     li {
-        display: block;
         float: left;
         margin-left: -1px;
 
         a {
-            margin-bottom: 0.25em;
+            display: block;
             padding: 0.5em 1em;
-            font-family: $sans-serif;
             font-size: 14px;
             font-weight: bold;
-            line-height: 1.5;
             text-align: center;
             text-decoration: none;
             color: var(--global-text-color-light);
-            border: 1px solid var(var(--global-border-color));
-            border-radius: 0;
+            border: 1px solid var(--global-border-color);
+            transition: color 0.3s;
 
             &:hover {
                 color: var(--global-link-color-hover);
@@ -133,38 +125,31 @@ body {
             }
 
             &.disabled {
-                color: var(--global-text-color-light);
                 pointer-events: none;
                 cursor: not-allowed;
             }
         }
 
-        &:first-child {
-            margin-left: 0;
-
-            a {
-                border-top-left-radius: $border-radius;
-                border-bottom-left-radius: $border-radius;
-            }
+        &:first-child a {
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
         }
 
-        &:last-child {
-            a {
-                border-top-right-radius: $border-radius;
-                border-bottom-right-radius: $border-radius;
-            }
+        &:last-child a {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
         }
     }
 }
 
-/*
-   Priority plus navigation
+/* ==========================================================================
+   GREEDY NAVIGATION
    ========================================================================== */
 
 .greedy-nav {
     position: relative;
     min-width: 250px;
-    background: var(--global-bg-color);
+    background: var(--navbar-background-color);
 
     a {
         display: block;
@@ -172,6 +157,7 @@ body {
         padding: 0.5rem 0;
         color: var(--global-masthead-link-color);
         text-decoration: none;
+        transition: color 0.3s;
 
         &:hover {
             color: var(--global-masthead-link-color-hover);
@@ -180,11 +166,10 @@ body {
 
     button {
         position: absolute;
-        height: 2.5rem;
         right: 0;
+        height: 2.5rem;
         padding: 0 0.5rem;
-        border: 0;
-        outline: none;
+        border: none;
         background-color: var(--global-base-color);
         color: #fff;
         cursor: pointer;
@@ -192,26 +177,11 @@ body {
     }
 
     .visible-links {
-        display: table;
+        display: flex;
+        align-items: center;
 
-        li {
-            display: table-cell;
-            vertical-align: middle;
-
-            &:first-child {
-                font-weight: bold;
-                text-wrap: wrap;
-
-                a {
-                    margin-left: 0;
-                }
-            }
-
-            &:last-child {
-                a {
-                    margin-right: 0;
-                }
-            }
+        li:first-child {
+            font-weight: bold;
         }
 
         a {
@@ -223,19 +193,14 @@ body {
                 left: 0;
                 bottom: 0;
                 height: 4px;
-                background: var(--global-border-color);
                 width: 100%;
-                -webkit-transition: $global-transition;
-                transition: $global-transition;
-                -webkit-transform: scaleX(0);
-                    -ms-transform: scaleX(0);
-                        transform: scaleX(0); /* hide*/
+                background: var(--global-border-color);
+                transform: scaleX(0);
+                transition: transform 0.3s;
             }
 
             &:hover:before {
-                -webkit-transform: scaleX(1);
-                    -ms-transform: scaleX(1);
-                        transform: scaleX(1); /* reveal*/
+                transform: scaleX(1);
             }
         }
     }
@@ -247,54 +212,38 @@ body {
         margin-top: 15px;
         padding: 5px;
         border: 1px solid var(--global-border-color);
-        border-radius: $border-radius;
         background: #fff;
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
         a {
-            margin: 0;
             padding: 10px 20px;
             font-size: $type-size-5;
 
             &:hover {
-                color: var(--global-masthead-link-color-hover);
                 background: var(--global-border-color);
             }
         }
 
-        &:before {
-            content: "";
-            position: absolute;
-            top: -11px;
-            right: 10px;
-            width: 0;
-            border-style: solid;
-            border-width: 0 10px 10px;
-            border-color: var(--global-border-color) transparent;
-            display: block;
-            z-index: 0;
-        }
-
+        &:before,
         &:after {
             content: "";
             position: absolute;
             top: -10px;
             right: 10px;
-            width: 0;
-            border-style: solid;
             border-width: 0 10px 10px;
-            border-color: #fff transparent;
-            display: block;
-            z-index: 1;
+            border-style: solid;
         }
 
-        li {
-            display: block;
-            border-bottom: 1px solid var(--global-border-color);
+        &:before {
+            border-color: var(--global-border-color) transparent;
+        }
 
-            &:last-child {
-                border-bottom: none;
-            }
+        &:after {
+            border-color: #fff transparent;
+        }
+
+        li:last-child {
+            border-bottom: none;
         }
     }
 }
