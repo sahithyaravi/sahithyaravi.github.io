@@ -25,12 +25,12 @@ $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
-$navbar-background-color: #C4DFDF;
+$navbar-background-color: #7fbdbd;
 
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #E3F4F4;
+    --global-bg-color                   : #a2e5e5;
     --global-border-color               : #{$lighter-gray};
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};

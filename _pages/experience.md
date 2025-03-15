@@ -1,3 +1,9 @@
+---
+title: "Experience"
+permalink: /experience/
+author_profile: false
+---
+
 <style>
   /* Timeline container */
   .timeline {
