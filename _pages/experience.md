@@ -9,7 +9,7 @@ author_profile: true
 .timeline {
   position: relative;
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 /* Vertical line */
@@ -35,13 +35,13 @@ author_profile: true
 
 /* Timeline symbol (diamond) */
 .timeline-item::before {
-  content: '\25C9'; /* Unicode for a diamond (◆) */
+  content: '\25CE'; /* Unicode for a diamond (◆) */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   font-size: 18px;
   color: #007bff;
-  background: white;
+  background: #f3e3e3;
   padding: 2px;
 }
 
