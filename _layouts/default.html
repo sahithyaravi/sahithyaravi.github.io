@@ -5,6 +5,14 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
+<nav class="navbar">
+    <div class="nav-container">
+        {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+    </div>
+</nav>
+
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
