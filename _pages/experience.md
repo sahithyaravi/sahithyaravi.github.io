@@ -35,7 +35,7 @@ author_profile: true
 
 /* Timeline symbol (diamond) */
 .timeline-item::before {
-  content: '\25C6'; /* Unicode for a diamond (◆) */
+  content: '\25C9'; /* Unicode for a diamond (◆) */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -50,7 +50,7 @@ author_profile: true
   flex: 1;
   text-align: right;
   font-weight: bold;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 /* Right side (Experience card) */
@@ -62,7 +62,7 @@ author_profile: true
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #f3e3e3;
-  margin-left: 50px; /* Ensures spacing from the timeline */
+  margin-left: 100px; /* Ensures spacing from the timeline */
 }
 
 /* Experience logo */
