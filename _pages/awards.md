@@ -13,7 +13,7 @@ author_profile: true
 
   .award-item {
     padding: 12px;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #789DBC;
     background: #f3e3e3;
     border-radius: 6px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
