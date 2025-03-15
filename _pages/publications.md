@@ -136,7 +136,6 @@ author_profile: true
 
 </div>
 
-</div>
 
 (◆ - Equal Contribution)
 
