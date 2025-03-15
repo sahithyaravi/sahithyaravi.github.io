@@ -19,7 +19,7 @@ author_profile: true
   width: 4px;
   top: 0;
   bottom: 0;
-  left: 20%;
+  left: 35%;
   background: #ccc;
   transform: translateX(-50%);
 }
@@ -37,7 +37,7 @@ author_profile: true
 .timeline-item::before {
   content: '\25CE'; /* Unicode for a diamond (◆) */
   position: absolute;
-  left: 50%;
+  left: 35%;
   transform: translateX(-50%);
   font-size: 18px;
   color: #007bff;
