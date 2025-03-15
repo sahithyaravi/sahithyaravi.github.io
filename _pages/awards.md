@@ -14,7 +14,7 @@ author_profile: true
   .award-item {
     padding: 12px;
     border-left: 4px solid #007bff;
-    background: #f8f9fa;
+    background: #f3e3e3;
     border-radius: 6px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
   }
@@ -31,7 +31,6 @@ author_profile: true
   }
 </style>
 
-## Awards
 
 <div class="awards-grid">
   <div class="award-item">
