@@ -14,7 +14,7 @@ author_profile: true
   .pub-year {
     font-size: 1.5em;
     font-weight: bold;
-    color: #007bff;
+    color: #f3e3e3;
     border-bottom: 2px solid #789DBC;
     margin-top: 20px;
     padding-bottom: 5px;
@@ -93,6 +93,49 @@ author_profile: true
     <span class="pub-authors">Maksym Taranukhin, <b>Sahithya Ravi</b>, Gábor Lukács, Evangelos Milios, and Vered Shwartz</span>  
     <span class="pub-venue">NLLP 2024</span>
   </div>
+
+   <!-- 2023 -->
+  <h2 class="pub-year">2023</h2>
+
+  <div class="publication-card">
+    <strong>COMET-M: Reasoning about Multiple Events in Complex Sentences</strong>  
+    <span class="pub-authors"><b>Sahithya Ravi</b>, Raymond Ng, Vered Shwartz</span>  
+    <span class="pub-venue">Findings of EMNLP 2023</span>  
+    <a href="https://www.semanticscholar.org/reader/d0f108b8f5fcfb81e4354b498f3f8491740ece7e" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <div class="publication-card">
+    <strong>VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge</strong>  
+    <span class="pub-authors"><b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup>, Renjie Lio, Vered Shwartz, and Leonid Sigal</span>  
+    <span class="pub-venue">WACV 2023</span>  
+    <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <div class="publication-card">
+    <strong>What Happens Before and After: Multi-Event Commonsense in Event Coreference Resolution</strong>  
+    <span class="pub-authors"><b>Sahithya Ravi</b>, Chris Tanner, Raymond Ng, and Vered Shwartz</span>  
+    <span class="pub-venue">EACL 2023</span>  
+    <a href="https://arxiv.org/pdf/2302.09715.pdf" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <div class="publication-card">
+    <strong>CASE: Commonsense-Augmented Score with an Expanded Answer Space</strong>  
+    <span class="pub-authors">Wenkai Chen, <b>Sahithya Ravi</b>, and Vered Shwartz</span>  
+    <span class="pub-venue">Findings of EMNLP 2023</span>  
+    <a href="https://arxiv.org/pdf/2311.01684.pdf" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <!-- 2020 -->
+  <h2 class="pub-year">2020</h2>
+
+  <div class="publication-card">
+    <strong>OpenML-Python: An Extensible Python API for OpenML</strong>  
+    <span class="pub-authors">M. Feurer, <b>S. Ravi</b>, et al.</span>  
+    <span class="pub-venue">JMLR, 2020</span>  
+    <a href="https://arxiv.org/pdf/1911.02490.pdf" class="pub-link">🔗 Paper</a>
+  </div>
+
+</div>
 
 </div>
 
