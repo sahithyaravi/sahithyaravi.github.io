@@ -14,14 +14,14 @@ The goal of my research is to develop robust and safe AI models that move beyond
 
 My focusing on the following interconnected areas:
 
-➋ **Robustness to Expectation-Violating Scenarios**  
+➊ **Robustness to Expectation-Violating Scenarios**  
 I design benchmarks and models that adapt to surprising or expectation-violating events, which is crucial for **real-world safety**. 
 My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
 
-➌ **Feedback Driven Learning**  
+➋ **Feedback Driven Learning**  
 To scale complex capabilities such as creativity, I have explored [feedback-driven training paradigms]åå(https://aclanthology.org/2024.acl-long.706.pdf) and control. I am currently exploring the role of multi-aspect feedback in generation.
 
-➊ **Grounded Reasoning**  
+➌ **Grounded Reasoning**  
 I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in text [COMET-M](https://aclanthology.org/2023.findings-emnlp.861.pdf), event coreference [BeforeAfter](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding in [VLC-BERT](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
 
 ➍ **Inclusive Models**  
