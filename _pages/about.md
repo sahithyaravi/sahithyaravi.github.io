@@ -36,7 +36,7 @@ If you are interested in any of the above areas, feel free to reach out.
 /* Timeline container */
 .timeline {
   position: relative;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 20px auto;
 }
 
@@ -83,7 +83,7 @@ If you are interested in any of the above areas, feel free to reach out.
 
 /* Right side (Experience card) */
 .experience-card {
-  flex: 3;
+  flex: 5;
   display: flex;
   align-items: center;
   border-radius: 8px;
