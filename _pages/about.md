@@ -157,7 +157,4 @@ If you are interested in any of the above areas, feel free to reach out.
     </div>
   </div>
 </div>
-    </div>
-  </div>
-</div>
 
