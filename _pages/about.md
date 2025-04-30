@@ -10,24 +10,24 @@ Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) CS advised 
 
 The goal of my research is to develop robust and safe AI models that move beyond pattern recognition to achieve a deeper, context-sensitive understanding of the world. Specifically, I evaluate and improve critical reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications.
 
-My focusing on the following interconnected areas:
+My focus is on the following interconnected areas:
 
-➊ **Robustness to Expectation-Violating Scenarios**  
+➊ **Robustness to Expectation-Violating Video Events**  
 I design benchmarks and models that adapt to surprising or expectation-violating events, which is crucial for **real-world safety**. 
 My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
 
 ➋ **Feedback Driven Learning**  
-To scale complex capabilities such as creativity, I have explored [feedback-driven training paradigms]åå(https://aclanthology.org/2024.acl-long.706.pdf) and control. I am currently exploring the role of multi-aspect feedback in generation.
+To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving such generation.
 
 ➌ **Grounded Reasoning**  
-I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in text [COMET-M](https://aclanthology.org/2023.findings-emnlp.861.pdf), event coreference [BeforeAfter](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding in [VLC-BERT](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
+I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
 
 ➍ **Inclusive Models**  
-I have worked on valuating vision-language models in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and benchmarking the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)). 
+I have worked on valuating vision-language models in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and benchmarking the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
 
+If you are interested in any of the above areas, feel free to reach out. 
 
-
-Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India. 
+<!-- Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India.  -->
 
 
 # Experience
@@ -110,9 +110,7 @@ Before coming to UBC, I worked as an AI research engineer in the Machine Learnin
       <img src="../images/meta_logo.png" alt="FAIR Logo">
       <div>
         <h3>Research Intern, FAIR Communication and Language</h3>
-        <ul>
-          <li>Text-guided avatar generation based on social norms</li>
-        </ul>
+          <p>Generating fine-grained facial expressions using semantically meaningful pose tokens, improving predictability and precise control crucial for controllable video generation. </p>
       </div>
     </div>
   </div>
@@ -124,9 +122,7 @@ Before coming to UBC, I worked as an AI research engineer in the Machine Learnin
       <img src="../images/msr_logo.jpeg" alt="Microsoft Research Logo">
       <div>
         <h3>Research Intern, Microsoft Research, HCAIX Group</h3>
-        <ul>
-          <li>Evaluating spatial reasoning abilities of Vision Language Models across multiple frames</li>
-        </ul>
+        <p>Evaluating 3D spatial reasoning abilities of Vision Language Models in ego-centric videos.</p>
       </div>
     </div>
   </div>
@@ -138,26 +134,11 @@ Before coming to UBC, I worked as an AI research engineer in the Machine Learnin
       <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
       <div>
         <h3>AI Research Scientist Intern, Meta Reality Labs</h3>
-        <ul>
-          <li>Distillation from Large Language Models (LLMs) to Small Language Models (SLMs)</li>
-        </ul>
+        <p> Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.</p>
       </div>
     </div>
   </div>
 
-  <!-- Experience 4 -->
-  <div class="timeline-item">
-    <div class="timeline-year">2021 - Present</div>
-    <div class="experience-card">
-      <img src="../images/ubc_cs_logo.png" alt="UBC Logo">
-      <div>
-        <h3>Research Assistant, UBC NLP Group</h3>
-        <ul>
-          <li>Commonsense, abductive, and counterfactual reasoning in Vision Language tasks</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
   <!-- Experience 5 -->
   <div class="timeline-item">
@@ -166,10 +147,7 @@ Before coming to UBC, I worked as an AI research engineer in the Machine Learnin
       <img src="../images/openml_logo.png" alt="OpenML Logo">
       <div>
         <h3>AI Research Engineer, OpenML & TU/e</h3>
-        <ul>
-          <li>Core developer for OpenML and AutoML research infrastructure</li>
-          <li>Developed meta-learning approaches for AutoML experiment selection</li>
-        </ul>
+        <p>I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. </p>
       </div>
     </div>
   </div>
