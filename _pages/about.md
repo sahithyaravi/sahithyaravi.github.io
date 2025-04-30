@@ -6,6 +6,7 @@ redirect_from:
   - /about.html
 ---
 
+# About
 
 Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) CS advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). 
 
@@ -15,11 +16,10 @@ My focusing on the following interconnected areas:
 
 ➋ **Robustness to Expectation-Violating Scenarios**  
 I design benchmarks and models that adapt to surprising or expectation-violating events, which is crucial for **real-world safety**. 
-My work [Black Swan](https://blackswan.cs.ubc.ca/) introduces a framework for abductive and defeasible reasoning in unpredictable video settings, enabling models to revise beliefs with new evidence.
-I am currently working on adapting models to be resilient to such scenarios.
+My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
 
 ➌ **Feedback Driven Learning**  
-To scale complex capabilities such as creativity, I have explored feedback-driven training paradigms[Small But Funny](https://aclanthology.org/2024.acl-long.706.pdf) and control. I am currently exploring the role of multi-aspect feedback in generation.
+To scale complex capabilities such as creativity, I have explored [feedback-driven training paradigms]åå(https://aclanthology.org/2024.acl-long.706.pdf) and control. I am currently exploring the role of multi-aspect feedback in generation.
 
 ➊ **Grounded Reasoning**  
 I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in text [COMET-M](https://aclanthology.org/2023.findings-emnlp.861.pdf), event coreference [BeforeAfter](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding in [VLC-BERT](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
@@ -27,6 +27,153 @@ I have developed models that infer real-world events and object dynamics using w
 ➍ **Inclusive Models**  
 I have worked on valuating vision-language models in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and benchmarking the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)). 
 
+
+
 Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India. 
 
+
+# Experience
+
+<style>
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* Vertical line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  background: #ccc;
+  transform: translateX(-50%);
+}
+
+/* Individual timeline items */
+.timeline-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px 0;
+}
+
+/* Timeline symbol (diamond) */
+.timeline-item::before {
+  content: '\25CE'; /* Unicode for a diamond (◆) */
+  position: absolute;
+  left: 25%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: #007bff;
+  background: #f3e3e3;
+  padding: 2px;
+}
+
+/* Left side (Year) */
+.timeline-year {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+/* Right side (Experience card) */
+.experience-card {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #f3e3e3;
+  margin-left: 100px; /* Ensures spacing from the timeline */
+}
+
+/* Experience logo */
+.experience-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+</style>
+
+<div class="timeline">
+  <!-- Experience 1 -->
+  <div class="timeline-item">
+    <div class="timeline-year">Summer 2024</div>
+    <div class="experience-card">
+      <img src="../images/meta_logo.png" alt="FAIR Logo">
+      <div>
+        <h3>Research Intern, FAIR Communication and Language</h3>
+        <ul>
+          <li>Text-guided avatar generation based on social norms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience 2 -->
+  <div class="timeline-item">
+    <div class="timeline-year">Summer 2024</div>
+    <div class="experience-card">
+      <img src="../images/msr_logo.jpeg" alt="Microsoft Research Logo">
+      <div>
+        <h3>Research Intern, Microsoft Research, HCAIX Group</h3>
+        <ul>
+          <li>Evaluating spatial reasoning abilities of Vision Language Models across multiple frames</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience 3 -->
+  <div class="timeline-item">
+    <div class="timeline-year">Summer 2023</div>
+    <div class="experience-card">
+      <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
+      <div>
+        <h3>AI Research Scientist Intern, Meta Reality Labs</h3>
+        <ul>
+          <li>Distillation from Large Language Models (LLMs) to Small Language Models (SLMs)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience 4 -->
+  <div class="timeline-item">
+    <div class="timeline-year">2021 - Present</div>
+    <div class="experience-card">
+      <img src="../images/ubc_cs_logo.png" alt="UBC Logo">
+      <div>
+        <h3>Research Assistant, UBC NLP Group</h3>
+        <ul>
+          <li>Commonsense, abductive, and counterfactual reasoning in Vision Language tasks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience 5 -->
+  <div class="timeline-item">
+    <div class="timeline-year">2019 - 2021</div>
+    <div class="experience-card">
+      <img src="../images/openml_logo.png" alt="OpenML Logo">
+      <div>
+        <h3>AI Research Engineer, OpenML & TU/e</h3>
+        <ul>
+          <li>Core developer for OpenML and AutoML research infrastructure</li>
+          <li>Developed meta-learning approaches for AutoML experiment selection</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
