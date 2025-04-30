@@ -36,7 +36,6 @@ If you are interested in any of the above areas, feel free to reach out.
 /* Timeline container */
 .timeline {
   position: relative;
-  max-width: 1200px;
   margin: 20px auto;
 }
 
@@ -83,7 +82,7 @@ If you are interested in any of the above areas, feel free to reach out.
 
 /* Right side (Experience card) */
 .experience-card {
-  flex: 5;
+  flex: 6;
   display: flex;
   align-items: center;
   border-radius: 8px;
@@ -121,7 +120,7 @@ If you are interested in any of the above areas, feel free to reach out.
     <div class="experience-card">
       <img src="../images/msr_logo.jpeg" alt="Microsoft Research Logo">
       <div>
-        <h3>Research Intern, Microsoft Research, HCAIX Group</h3>
+        <h3>Research Intern, Microsoft Research/h3>
         <p>Evaluating 3D spatial reasoning abilities of Vision Language Models in ego-centric videos.</p>
       </div>
     </div>
@@ -133,7 +132,7 @@ If you are interested in any of the above areas, feel free to reach out.
     <div class="experience-card">
       <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
       <div>
-        <h3>AI Research Scientist Intern, Meta Reality Labs</h3>
+        <h3>Research Intern, Meta Reality Labs</h3>
         <p> Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.</p>
       </div>
     </div>
