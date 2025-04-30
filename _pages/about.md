@@ -23,7 +23,7 @@ To scale complex reasoning capabilities such as creativity, which do not adhere 
 I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
 
 ➍ **Inclusive Models**  
-I have worked on valuating vision-language models in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and benchmarking the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
+I have worked on evaluating VLMs on retrieval and grounding in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and analyzing the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
 
 If you are interested in any of the above areas, feel free to reach out. 
 
