@@ -140,15 +140,23 @@ If you are interested in any of the above areas, feel free to reach out.
   </div>
 
 
-  <!-- Experience 5 -->
-  <div class="timeline-item">
-    <div class="timeline-year">2019 - 2021</div>
-    <div class="experience-card">
-      <img src="../images/openml_logo.png" alt="OpenML Logo">
-      <div>
-        <h3>AI Research Engineer, OpenML & TU/e</h3>
-        <p>I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. </p>
-      </div>
+<!-- Experience 5 -->
+<div class="timeline-item">
+  <div class="timeline-year">2019 - 2021</div>
+  <div class="experience-card">
+    <img src="../images/openml_logo.png" alt="OpenML Logo">
+    <div>
+      <h3>AI Research Engineer, OpenML & TU/e</h3>
+      <p>
+        I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. 
+        Together with an amazing <a href="https://github.com/orgs/openml/people">team</a> supervised by 
+        <a href="https://joaquinvanschoren.github.io/home/#lab">Joaquin Vanschoren</a>, I worked on research and development of open-source software for 
+        <a href="https://github.com/openml">open and automated machine learning</a>. I also worked with 
+        <a href="https://www.win.tue.nl/~mpechen/">Mykola Pechenizkiy</a> on active learning and interpretability of NLP models.
+      </p>
+    </div>
+  </div>
+</div>
     </div>
   </div>
 </div>
