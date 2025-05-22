@@ -60,9 +60,23 @@ author_profile: true
 
 <div class="publications-container">
   
+
   <!-- 2025 -->
   <h2 class="pub-year">2025</h2>
-  
+  <div class="publication-card">
+    <strong>CulturalBench: A Robust, Diverse and Challenging Benchmark for Measuring LMs' Cultural Knowledge Through Human-AI Red-Teaming</strong>  
+    <span class="pub-authors"> Yu Ying Chiu, Liwei Jiang, Bill Yuchen Lin, Chan Young Park, Shuyue Stella Li, <b>Sahithya Ravi</b>, Mehar Bhatia, Maria Antoniak, Yulia Tsvetkov, Vered Shwartz, and Yejin Choi. ACL 2025.</span>  
+    <span class="pub-venue">ACL 2025</span>  
+    <a href="https://arxiv.org/pdf/2410.02677" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <div class="publication-card">
+    <strong>Grounding Task Assistance with Multimodal Cues from a Single Demonstration</strong>  
+    <span class="pub-authors">Gabriel Herbert Sarch, Balasaravanan Thoravi Kumaravel, <b>Sahithya Ravi</b>, Vibhav Vineet, Andy Wilson</span>  
+    <span class="pub-venue">Findings of ACL, 2025</span>  
+    <a href="https://arxiv.org/pdf/2505.01578" class="pub-link">🔗 Paper</a>
+  </div>
+
   <div class="publication-card">
     <strong>Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events</strong>  
     <span class="pub-authors">Aditya Chinchure<sup>◆</sup>, <b>Sahithya Ravi<sup>◆</sup></b>, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal</span>  
