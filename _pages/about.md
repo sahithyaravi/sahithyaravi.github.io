@@ -37,7 +37,6 @@ If you are interested in any of the above areas, feel free to reach out.
 .timeline {
   position: relative;
   margin: 20px auto;
-  padding-left: 25%;
 }
 
 /* Vertical line */
@@ -55,15 +54,15 @@ If you are interested in any of the above areas, feel free to reach out.
 /* Individual timeline items */
 .timeline-item {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   margin: 20px 0;
 }
 
-/* Timeline symbol (dot) */
+/* Timeline symbol (diamond) */
 .timeline-item::before {
-  content: '\25CF'; /* Unicode for a filled circle */
+  content: '\25CE'; /* Unicode for a diamond (◆) */
   position: absolute;
   left: 25%;
   transform: translateX(-50%);
@@ -71,28 +70,25 @@ If you are interested in any of the above areas, feel free to reach out.
   color: #007bff;
   background: #f3e3e3;
   padding: 2px;
-  z-index: 1;
 }
 
 /* Left side (Year) */
 .timeline-year {
-  width: 20%;
+  flex: 1;
   text-align: right;
   font-weight: bold;
-  padding-right: 20px;
-  box-sizing: border-box;
+  padding-right: 10px;
 }
 
 /* Right side (Experience card) */
 .experience-card {
-  width: 60%;
+  flex: 6;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #f3e3e3;
-  padding: 10px 15px;
-  gap: 15px;
+  margin-left: 100px; /* Ensures spacing from the timeline */
 }
 
 /* Experience logo */
@@ -100,7 +96,9 @@ If you are interested in any of the above areas, feel free to reach out.
   width: 60px;
   height: 60px;
   object-fit: contain;
+  margin-right: 15px;
 }
+
 </style>
 
 <div class="timeline">
