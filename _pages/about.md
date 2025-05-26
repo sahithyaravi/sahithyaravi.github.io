@@ -37,6 +37,7 @@ If you are interested in any of the above areas, feel free to reach out.
 .timeline {
   position: relative;
   margin: 20px auto;
+  padding-left: 25%;
 }
 
 /* Vertical line */
@@ -54,15 +55,15 @@ If you are interested in any of the above areas, feel free to reach out.
 /* Individual timeline items */
 .timeline-item {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
   position: relative;
   margin: 20px 0;
 }
 
-/* Timeline symbol (diamond) */
+/* Timeline symbol (dot) */
 .timeline-item::before {
-  content: '\25CE'; /* Unicode for a diamond (◆) */
+  content: '\25CF'; /* Unicode for a filled circle */
   position: absolute;
   left: 25%;
   transform: translateX(-50%);
@@ -70,25 +71,28 @@ If you are interested in any of the above areas, feel free to reach out.
   color: #007bff;
   background: #f3e3e3;
   padding: 2px;
+  z-index: 1;
 }
 
 /* Left side (Year) */
 .timeline-year {
-  flex: 1;
+  width: 20%;
   text-align: right;
   font-weight: bold;
-  padding-right: 10px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 /* Right side (Experience card) */
 .experience-card {
-  flex: 6;
+  width: 60%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #f3e3e3;
-  margin-left: 100px; /* Ensures spacing from the timeline */
+  padding: 10px 15px;
+  gap: 15px;
 }
 
 /* Experience logo */
@@ -96,9 +100,7 @@ If you are interested in any of the above areas, feel free to reach out.
   width: 60px;
   height: 60px;
   object-fit: contain;
-  margin-right: 15px;
 }
-
 </style>
 
 <div class="timeline">
@@ -109,7 +111,7 @@ If you are interested in any of the above areas, feel free to reach out.
       <img src="../images/meta_logo.png" alt="FAIR Logo">
       <div>
         <h3>Research Intern, FAIR Communication and Language</h3>
-          <p>Generating fine-grained facial expressions using semantically meaningful pose tokens, improving predictability and precise control crucial for controllable video generation. </p>
+        <p>Generating fine-grained facial expressions using semantically meaningful pose tokens, improving predictability and precise control crucial for controllable video generation.</p>
       </div>
     </div>
   </div>
@@ -120,7 +122,7 @@ If you are interested in any of the above areas, feel free to reach out.
     <div class="experience-card">
       <img src="../images/msr_logo.jpeg" alt="Microsoft Research Logo">
       <div>
-        <h3>Research Intern, Microsoft Research/h3>
+        <h3>Research Intern, Microsoft Research</h3>
         <p>Evaluating 3D spatial reasoning abilities of Vision Language Models in ego-centric videos.</p>
       </div>
     </div>
@@ -133,27 +135,26 @@ If you are interested in any of the above areas, feel free to reach out.
       <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
       <div>
         <h3>Research Intern, Meta Reality Labs</h3>
-        <p> Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.</p>
+        <p>Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.</p>
       </div>
     </div>
   </div>
 
-
-<!-- Experience 5 -->
-<div class="timeline-item">
-  <div class="timeline-year">2019 - 2021</div>
-  <div class="experience-card">
-    <img src="../images/openml_logo.png" alt="OpenML Logo">
-    <div>
-      <h3>AI Research Engineer, OpenML & TU/e</h3>
-      <p>
-        I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. 
-        Together with an amazing <a href="https://github.com/orgs/openml/people">team</a> supervised by 
-        <a href="https://joaquinvanschoren.github.io/home/#lab">Joaquin Vanschoren</a>, I worked on research and development of open-source software for 
-        <a href="https://github.com/openml">open and automated machine learning</a>. I also worked with 
-        <a href="https://www.win.tue.nl/~mpechen/">Mykola Pechenizkiy</a> on active learning and interpretability of NLP models.
-      </p>
+  <!-- Experience 4 -->
+  <div class="timeline-item">
+    <div class="timeline-year">2019 - 2021</div>
+    <div class="experience-card">
+      <img src="../images/openml_logo.png" alt="OpenML Logo">
+      <div>
+        <h3>AI Research Engineer, OpenML & TU/e</h3>
+        <p>
+          I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. 
+          Together with an amazing <a href="https://github.com/orgs/openml/people">team</a> supervised by 
+          <a href="https://joaquinvanschoren.github.io/home/#lab">Joaquin Vanschoren</a>, I worked on research and development of open-source software for 
+          <a href="https://github.com/openml">open and automated machine learning</a>. I also worked with 
+          <a href="https://www.win.tue.nl/~mpechen/">Mykola Pechenizkiy</a> on active learning and interpretability of NLP models.
+        </p>
+      </div>
     </div>
   </div>
 </div>
-
