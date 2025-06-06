@@ -64,6 +64,13 @@ author_profile: true
   <!-- 2025 -->
   <h2 class="pub-year">2025</h2>
   <div class="publication-card">
+    <strong>Out of Sight, Not Out of Context? Egocentric Spatial Reasoning in VLMs Across Disjoint Frames</strong>  
+    <span class="pub-authors"> <b>Sahithya Ravi</b>, Gabriel Sarch, Vibhav Vineet, Andrew D Wilson, Balasaravanan Thoravi Kumaravel</span>  
+    <span class="pub-venue">arXiv 2025</span>  
+    <a href="https://arxiv.org/pdf/2410.02677" class="pub-link">🔗 Paper</a>
+  </div>
+
+  <div class="publication-card">
     <strong>CulturalBench: A Robust, Diverse and Challenging Benchmark for Measuring LMs' Cultural Knowledge Through Human-AI Red-Teaming</strong>  
     <span class="pub-authors"> Yu Ying Chiu, Liwei Jiang, Bill Yuchen Lin, Chan Young Park, Shuyue Stella Li, <b>Sahithya Ravi</b>, Mehar Bhatia, Maria Antoniak, Yulia Tsvetkov, Vered Shwartz, and Yejin Choi.</span>  
     <span class="pub-venue">ACL 2025</span>  
