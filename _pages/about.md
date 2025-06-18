@@ -12,12 +12,12 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
 
 My focus is on the following interconnected areas:
 
-➊ **Robustness to Expectation-Violating Video Events**  
-I design benchmarks and models that adapt to surprising or expectation-violating events, which is crucial for **real-world safety**. 
-My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
+➊ **Robust Spatial and Causal Reasoning in Video-Language Models**  
+I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
+Additionally, my [recent work](https://arxiv.org/pdf/2505.24257) looks at whether VLMs can reason about spatial relationships in multi-frame egocentric setitngs when equipped with 3D cues. 
 
 ➋ **Feedback Driven Learning**  
-To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving such generation.
+To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving generation.
 
 ➌ **Grounded Reasoning**  
 I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
