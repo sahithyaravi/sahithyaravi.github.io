@@ -67,7 +67,7 @@ author_profile: true
     <strong>Out of Sight, Not Out of Context? Egocentric Spatial Reasoning in VLMs Across Disjoint Frames</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi</b>, Gabriel Sarch, Vibhav Vineet, Andrew D Wilson, Balasaravanan Thoravi Kumaravel</span>  
     <span class="pub-venue">arXiv 2025</span>  
-    <a href="https://arxiv.org/pdf/2410.02677" class="pub-link">🔗 Paper</a>
+    <a href="https://arxiv.org/pdf/2505.24257" class="pub-link">🔗 Paper</a>
   </div>
 
   <div class="publication-card">
