@@ -88,7 +88,9 @@ author_profile: true
     <strong>Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events</strong>  
     <span class="pub-authors">Aditya Chinchure<sup>◆</sup>, <b>Sahithya Ravi<sup>◆</sup></b>, Raymond Ng, Vered Shwartz, Boyang Li, and Leonid Sigal</span>  
     <span class="pub-venue">CVPR 2025</span>  
-    <a href="https://arxiv.org/abs/2412.05725" class="pub-link">🔗 Paper</a>
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chinchure_Black_Swan_Abductive_and_Defeasible_Video_Reasoning_in_Unpredictable_Events_CVPR_2025_paper.pdf" class="pub-link">🔗 Paper</a>
+    <a href="https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread?r=8tdk6&utm_campaign=post&utm_medium=web&triedRedirect=true" class="pub-link">🗞️ Media</a>
+    
   </div>
 
   <!-- 2024 -->
