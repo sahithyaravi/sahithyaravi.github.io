@@ -21,7 +21,7 @@ author_profile: true
   }
   
   .publication-card {
-    background: #f3e3e3;
+    background:rgb(252, 252, 252);
     padding: 12px 16px;
     border-radius: 6px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
@@ -71,7 +71,7 @@ author_profile: true
   </div>
   <div class="publication-card">
     <strong>Position, World Models must live in parallel worlds</strong>  
-    <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup></b>, Vered Shwartz, Leonid Sigal, </span>  
+    <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup>, Vered Shwartz, Leonid Sigal, </span>  
     <span class="pub-venue">Law @Neurips 2025</span>  
   </div>
   <div class="publication-card">

@@ -69,7 +69,7 @@ If you are interested in any of the above areas, and would like to collaborate f
   transform: translateX(-50%);
   font-size: 18px;
   color: #007bff;
-  background: #f3e3e3;
+  background:rgb(255, 255, 255);
   padding: 2px;
 }
 
