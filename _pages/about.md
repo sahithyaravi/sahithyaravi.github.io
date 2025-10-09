@@ -10,27 +10,6 @@ Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) CS advised 
 
 I work at the intersection of NLP, Vision and cognitively-inspired reasoning. The goal of my research is to develop robust and safe AI models that move beyond pattern recognition to achieve a deeper, context-sensitive understanding of the world. Specifically, I evaluate and improve critical reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR.
 
-My focus is on the following interconnected areas:
-
-➊ **Spatial and Temporal Reasoning in Video-Language Models**  
-I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
-Additionally, my [recent work](https://arxiv.org/pdf/2505.24257) looks at whether VLMs can reason about spatial relationships in multi-frame egocentric setitngs when equipped with 3D cues. 
-
-➋ **Grounded Reasoning**  
-I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
-
-➌ **Feedback Driven Learning**  
-To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving generation.
-
-
-➍ **Inclusive Models**  
-I have worked on evaluating VLMs on retrieval and grounding in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and analyzing the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
-
-If you are interested in any of the above areas, and would like to collaborate feel free to reach out. 
-
-<!-- Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India.  -->
-
-
 # Experience
 
 <style>
@@ -157,3 +136,26 @@ If you are interested in any of the above areas, and would like to collaborate f
     </div>
   </div>
 </div>
+
+# Research Focus
+
+My focus is on the following interconnected areas:
+
+➊ **Spatial and Temporal Reasoning in Video-Language Models**  
+I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
+Additionally, my [recent work](https://arxiv.org/pdf/2505.24257) looks at whether VLMs can reason about spatial relationships in multi-frame egocentric setitngs when equipped with 3D cues. 
+
+➋ **Grounded Reasoning**  
+I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
+
+➌ **Feedback Driven Learning**  
+To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving generation.
+
+
+➍ **Inclusive Models**  
+I have worked on evaluating VLMs on retrieval and grounding in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and analyzing the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
+
+If you are interested in any of the above areas, and would like to collaborate feel free to reach out. 
+
+
+<!-- Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India.  -->
