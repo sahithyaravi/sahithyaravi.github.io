@@ -88,7 +88,7 @@ If you are interested in any of the above areas, and would like to collaborate f
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background: #f3e3e3;
+  background:rgb(255, 255, 255);
   margin-left: 100px; /* Ensures spacing from the timeline */
 }
 
