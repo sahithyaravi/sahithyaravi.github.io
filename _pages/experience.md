@@ -41,7 +41,7 @@ author_profile: true
   transform: translateX(-50%);
   font-size: 18px;
   color: #007bff;
-  background: #f3e3e3;
+  background:rgb(246, 246, 246);
   padding: 2px;
 }
 

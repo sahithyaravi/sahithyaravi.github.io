@@ -64,6 +64,17 @@ author_profile: true
   <!-- 2025 -->
   <h2 class="pub-year">2025</h2>
   <div class="publication-card">
+    <strong>SPIKE-RL: Video LLMs meet Bayesian Surprise</strong>  
+    <span class="pub-authors"> <b>Sahithya Ravi</b>, Aditya Chinchure, Raymond Ng, Leonid Sigal, Vered Shwartz</span>  
+    <span class="pub-venue">preprint</span>  
+    <a href="https://www.arxiv.org/pdf/2509.23433" class="pub-link">🔗 Paper</a>
+  </div>
+  <div class="publication-card">
+    <strong>Position, World Models must live in parallel worlds</strong>  
+    <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup></b>, Vered Shwartz, Leonid Sigal, </span>  
+    <span class="pub-venue">Law @Neurips 2025</span>  
+  </div>
+  <div class="publication-card">
     <strong>Out of Sight, Not Out of Context? Egocentric Spatial Reasoning in VLMs Across Disjoint Frames</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi</b>, Gabriel Sarch, Vibhav Vineet, Andrew D Wilson, Balasaravanan Thoravi Kumaravel</span>  
     <span class="pub-venue">EMNLP 2025</span>  
