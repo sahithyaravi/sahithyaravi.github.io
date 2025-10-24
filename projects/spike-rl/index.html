@@ -12,52 +12,57 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            font-family: 'Charter', 'Georgia', serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
+            box-shadow: 0 0 60px rgba(0,0,0,0.08);
         }
 
         header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 60px 40px;
+            padding: 80px 50px 70px;
             text-align: center;
         }
 
         h1 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             font-size: 2.8em;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
             font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            letter-spacing: -0.02em;
+            line-height: 1.2;
         }
 
         .subtitle {
-            font-size: 1.3em;
-            margin-bottom: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 1.2em;
+            margin-bottom: 35px;
             opacity: 0.95;
+            font-weight: 400;
+            line-height: 1.5;
         }
 
-        .authors {
-            font-size: 1.1em;
-            margin-bottom: 15px;
+        .meta {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+            opacity: 0.9;
             line-height: 1.8;
         }
 
         .affiliation {
-            font-size: 0.95em;
-            opacity: 0.9;
-            margin-bottom: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.9em;
+            opacity: 0.85;
+            margin-bottom: 35px;
         }
 
         .links {
@@ -69,160 +74,288 @@
         }
 
         .btn {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 12px 28px;
-            background: white;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.95);
             color: #667eea;
             text-decoration: none;
-            border-radius: 50px;
+            border-radius: 6px;
             font-weight: 600;
+            font-size: 0.9em;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
 
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-            background: #f8f9fa;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+            background: white;
         }
 
-        .content {
-            padding: 60px 40px;
-        }
-
-        section {
-            margin-bottom: 60px;
+        article {
+            padding: 60px 50px 80px;
         }
 
         h2 {
+            font-family: 'Charter', 'Georgia', serif;
             font-size: 2em;
-            margin-bottom: 25px;
-            color: #667eea;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
+            margin: 60px 0 30px 0;
+            color: #1a1a1a;
+            font-weight: 700;
+            letter-spacing: 0;
+        }
+
+        h2:first-child {
+            margin-top: 0;
         }
 
         h3 {
+            font-family: 'Charter', 'Georgia', serif;
             font-size: 1.4em;
-            margin: 30px 0 15px 0;
-            color: #764ba2;
+            margin: 45px 0 20px 0;
+            color: #2a2a2a;
+            font-weight: 600;
         }
 
         p {
-            margin-bottom: 20px;
-            font-size: 1.05em;
-            text-align: justify;
+            margin-bottom: 24px;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #1a1a1a;
         }
 
-        .teaser {
-            width: 100%;
-            margin: 40px 0;
+        .lead {
+            font-size: 1.25em;
+            line-height: 1.7;
+            color: #2a2a2a;
+            margin-bottom: 30px;
+        }
+
+        .figure {
+            margin: 50px -50px;
             text-align: center;
         }
 
-        .teaser img {
+        .figure img {
             width: 100%;
-            max-width: 1000px;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 0;
+            box-shadow: none;
         }
 
-        .video-container {
-            margin: 40px 0;
-            text-align: center;
-        }
-
-        video {
+        .figure video {
             width: 100%;
-            max-width: 900px;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-radius: 0;
+            box-shadow: none;
         }
 
         .caption {
-            margin-top: 15px;
-            font-style: italic;
-            color: #666;
+            margin-top: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             font-size: 0.95em;
+            line-height: 1.6;
+            color: #666;
+            padding: 0 50px;
         }
 
-        .highlight-box {
-            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+        .callout {
+            background: #f8f9fa;
             border-left: 4px solid #667eea;
-            padding: 25px;
-            margin: 30px 0;
+            padding: 30px;
+            margin: 40px 0;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        .callout strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f8f9fa;
             border-radius: 8px;
         }
 
-        .results-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 30px 0;
-        }
-
-        .result-card {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .result-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .result-card h4 {
+        .stat-number {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 2.5em;
+            font-weight: 700;
             color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.2em;
+            margin-bottom: 8px;
         }
 
-        .metric {
-            font-size: 2em;
-            font-weight: bold;
-            color: #764ba2;
-            margin: 10px 0;
+        .stat-label {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.95em;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .stat-detail {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 8px;
+        }
+
+        ul, ol {
+            margin: 24px 0 24px 30px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .bibtex-section {
+            background: #f8f9fa;
+            padding: 40px 50px;
+            margin-top: 60px;
+        }
+
+        .bibtex-section h2 {
+            margin-top: 0;
         }
 
         .bibtex {
-            background: #2d3748;
-            color: #e2e8f0;
-            padding: 25px;
-            border-radius: 10px;
+            background: #1a1a1a;
+            color: #e8e8e8;
+            padding: 24px;
+            border-radius: 6px;
             overflow-x: auto;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9em;
-            line-height: 1.5;
+            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+            font-size: 0.85em;
+            line-height: 1.6;
         }
 
         footer {
-            background: #f8f9fa;
-            padding: 30px;
+            background: #fafafa;
+            padding: 40px 50px;
             text-align: center;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        footer p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.9em;
             color: #666;
+            margin-bottom: 8px;
         }
 
         @media (max-width: 768px) {
+            .container {
+                box-shadow: none;
+            }
+
+            header {
+                padding: 60px 30px 50px;
+            }
+
             h1 {
                 font-size: 2em;
             }
-            
-            .content {
-                padding: 40px 20px;
+
+            article {
+                padding: 40px 30px 60px;
             }
-            
-            header {
-                padding: 40px 20px;
+
+            .figure {
+                margin-left: -30px;
+                margin-right: -30px;
+            }
+
+            .caption {
+                padding: 0 30px;
+            }
+
+            .bibtex-section {
+                padding: 40px 30px;
+            }
+
+            footer {
+                padding: 40px 30px;
             }
         }
 
         .icon {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        .task-results {
+            margin: 35px 0;
+            background: #fafafa;
+            border-radius: 8px;
+            padding: 30px;
+        }
+
+        .task-item {
+            padding: 20px 0;
+            border-bottom: 1px solid #e8e8e8;
+            display: grid;
+            grid-template-columns: 1fr 2fr auto;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .task-item:last-child {
+            border-bottom: none;
+        }
+
+        .task-name {
+            font-family: 'Charter', 'Georgia', serif;
+            font-weight: 700;
+            font-size: 1.1em;
+            color: #1a1a1a;
+        }
+
+        .task-desc {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.95em;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .task-gain {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            color: #667eea;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .task-item {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .task-gain {
+                text-align: left;
+            }
         }
     </style>
 </head>
@@ -232,7 +365,7 @@
             <h1>SPIKE-RL: Video-LLMs Meet Bayesian Surprise</h1>
             <div class="subtitle">Proactive Belief Tracking and Surprise-Aware Frame Sampling for Video Understanding</div>
             
-            <div class="authors">
+            <div class="meta">
                 Sahithya Ravi<sup>1,2</sup>, 
                 Aditya Chinchure<sup>1,2</sup>, 
                 Raymond T. Ng<sup>1</sup>, 
@@ -253,147 +386,185 @@
                     <svg class="icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                     Code
                 </a>
-                <a href="#bibtex" class="btn">
+                <a href="#citation" class="btn">
                     <svg class="icon" fill="currentColor" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
                     BibTeX
                 </a>
             </div>
         </header>
 
-        <div class="content">
-            <section id="abstract">
-                <h2>Abstract</h2>
-                <p>
-                    Real-world videos often show routine activities punctuated by memorable, surprising events. However, most Video-LLMs process videos by sampling frames uniformly, likely missing critical moments that define a video's narrative. We introduce <strong>SPIKE</strong>, an inference-time framework that quantifies Bayesian Surprise as the belief update triggered by new visual evidence in the video stream, identifying moments where new visual evidence conflicts with prior beliefs.
-                </p>
-                
-                <div class="teaser">
-                    <img src="assets/images/teaser.png" alt="SPIKE Overview">
-                    <div class="caption">
-                        SPIKE identifies surprising moments by tracking how beliefs shift when new frames are observed. 
-                        Unlike uniform sampling (a), our surprise-based sampling (b) focuses on high-surprise regions that align with human attention.
-                    </div>
+        <article>
+            <p class="lead">
+                Real-world videos are filled with routine activities punctuated by memorable, surprising events. Yet most Video-LLMs process videos by uniformly sampling frames, likely missing the critical moments that define a video's narrative.
+            </p>
+
+            <p>
+                We introduce <strong>SPIKE</strong>, an inference-time framework that quantifies Bayesian Surprise as the belief update triggered by new visual evidence in the video stream. By identifying moments where new observations conflict with prior expectations, SPIKE naturally discovers the most salient and informative frames. Since zero-shot Video-LLM beliefs are often suboptimal, we develop <strong>SPIKE-RL</strong>, which leverages group relative policy optimization (GRPO) to refine belief hypotheses based on caption quality as a reward signal.
+            </p>
+
+            <div class="figure">
+                <img src="assets/images/teaser.png" alt="SPIKE Overview">
+                <div class="caption">
+                    SPIKE identifies surprising moments by tracking belief shifts when new frames are observed. Unlike uniform sampling (a), our surprise-based sampling (b) focuses computational resources on high-surprise regions that naturally align with human attention.
                 </div>
+            </div>
 
-                <p>
-                    Since the beliefs of zero-shot Video-LLMs are often suboptimal, we develop <strong>SPIKE-RL</strong>, which leverages GRPO to optimize belief hypotheses based on a reward signal from the video caption. SPIKE and SPIKE-RL guide query-agnostic surprise-weighted frame sampling, which allocates more frames to interesting moments in the video. With this strategy, we achieve consistent performance gains on five downstream benchmarks over uniform sampling.
-                </p>
-            </section>
+            <p>
+                SPIKE and SPIKE-RL enable query-agnostic, surprise-weighted frame sampling that allocates more frames to interesting moments. This strategy yields consistent performance gains across five downstream benchmarks compared to uniform sampling baselines.
+            </p>
 
-            <section id="belief-tracking">
-                <h2>Bayesian Belief Tracking in Action</h2>
-                <p>
-                    Watch how SPIKE tracks beliefs and registers surprise in real-time. The visualization shows:
-                </p>
-                <ul style="margin-left: 30px; margin-bottom: 20px;">
-                    <li>Generated belief hypotheses at each timestep</li>
-                    <li>Prior and posterior probability distributions</li>
-                    <li>Surprise scores computed as KL divergence</li>
-                    <li>How the model reallocates attention to surprising moments</li>
-                </ul>
-                
-                <div class="video-container">
-                    <video controls>
-                        <source src="assets/videos/belief_tracking_video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="caption">
-                        Example of belief tracking: The model generates hypotheses about what will happen next, 
-                        and updates its beliefs when new frames contradict expectations.
-                    </div>
+            <h2>Bayesian Belief Tracking in Action</h2>
+
+            <p>
+                At the core of SPIKE is a principled approach to modeling uncertainty and surprise. As the model processes each frame, it maintains explicit probability distributions over possible future events, represented as human-interpretable textual hypotheses. When new visual evidence arrives, these beliefs are updated according to Bayes' rule, and the magnitude of this update—measured via KL divergence—quantifies surprise.
+            </p>
+
+            <div class="figure">
+                <video controls>
+                    <source src="assets/videos/belief_tracking_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">
+                    Visualization of belief tracking dynamics: the model generates hypotheses about upcoming events, computes prior and posterior probability distributions, and registers surprise when expectations are violated. High-surprise moments receive increased attention during frame sampling.
                 </div>
-            </section>
+            </div>
 
-            <section id="method">
-                <h2>Method</h2>
-                
-                <div class="highlight-box">
-                    <h3>Key Innovation</h3>
-                    <p>
-                        SPIKE represents a model's beliefs as <strong>explicit probability distributions over human-interpretable textual hypotheses</strong>. 
-                        By tracking how these beliefs shift when new frames are observed, we can quantify surprise and guide the model's attention to the most informative moments.
-                    </p>
+            <div class="callout">
+                <strong>Key insight:</strong> By representing beliefs as distributions over textual hypotheses rather than implicit feature representations, SPIKE provides interpretable explanations for why certain moments are deemed surprising. This transparency is crucial for understanding model behavior and debugging failure cases.
+            </div>
+
+            <h2>Method</h2>
+
+            <h3>SPIKE: Inference-Time Surprise Quantification</h3>
+
+            <p>
+                SPIKE operates through a four-stage pipeline at each timestep:
+            </p>
+
+            <ol>
+                <li><strong>Hypothesis generation:</strong> Given recent frames and historical context, generate a diverse set of hypotheses about potential future events</li>
+                <li><strong>Prior computation:</strong> Score each hypothesis before observing the next frame to obtain a prior belief distribution</li>
+                <li><strong>Posterior update:</strong> Re-score hypotheses after observing the new frame to compute posterior beliefs</li>
+                <li><strong>Surprise measurement:</strong> Calculate KL divergence between posterior and prior distributions as the surprise signal</li>
+            </ol>
+
+            <div class="figure">
+                <img src="assets/images/main.png" alt="SPIKE Architecture">
+                <div class="caption">
+                    SPIKE architecture showing the hypothesis generator and scorer modules. The generator produces belief hypotheses while the scorer computes likelihood ratios that yield prior and posterior distributions, ultimately producing per-frame surprise scores.
                 </div>
+            </div>
 
-                <h3>SPIKE: Inference-Time Surprise Scoring</h3>
-                <p>
-                    At each timestep, SPIKE:
-                </p>
-                <ol style="margin-left: 30px; margin-bottom: 20px;">
-                    <li><strong>Generates hypotheses</strong> about what might happen next based on recent frames and historical context</li>
-                    <li><strong>Computes prior beliefs</strong> by scoring each hypothesis before seeing the new frame</li>
-                    <li><strong>Updates to posterior beliefs</strong> after observing the new frame</li>
-                    <li><strong>Measures surprise</strong> as the KL divergence between posterior and prior distributions</li>
-                </ol>
+            <p>
+                This formulation has several advantages. First, surprise is computed in a model-agnostic manner that doesn't require gradient access or architectural modifications. Second, the textual hypothesis space enables rich reasoning about complex events. Third, the probabilistic framework provides theoretical grounding and interpretability.
+            </p>
 
-                <div class="teaser">
-                    <img src="assets/images/architecture.png" alt="SPIKE Architecture">
-                    <div class="caption">
-                        SPIKE architecture: The hypothesis generator produces beliefs, and the scorer computes prior and posterior distributions to yield surprise scores.
-                    </div>
+            <h3>SPIKE-RL: Reinforcement Learning for Belief Optimization</h3>
+
+            <p>
+                A critical challenge is that zero-shot Video-LLMs often generate suboptimal belief hypotheses. To address this, SPIKE-RL employs GRPO to optimize the hypothesis generator. The key observation is that <strong>accurate intermediate beliefs are necessary for producing high-quality final captions</strong>. By using caption quality as a reward signal, we can implicitly supervise the belief tracking process without requiring ground-truth surprise annotations.
+            </p>
+
+            <p>
+                The training procedure samples multiple belief trajectories per video, computes rewards based on caption quality (using GPT-4 as an evaluator), and updates the generator to increase the probability of high-reward trajectories. This approach yields hypotheses that are both more diverse and better aligned with human judgments of surprise.
+            </p>
+
+            <h2>Results</h2>
+
+            <h3>Surprise Localization</h3>
+
+            <p>
+                We evaluate SPIKE's ability to identify surprising moments on three benchmarks containing videos with unexpected events:
+            </p>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">62.9%</div>
+                    <div class="stat-label">Oops! Dataset</div>
+                    <div class="stat-detail">Acc@0.25s (vs. 62.1% human)</div>
                 </div>
-
-                <h3>SPIKE-RL: Reinforcement Learning for Belief Optimization</h3>
-                <p>
-                    SPIKE-RL uses GRPO (Group Relative Policy Optimization) to train the hypothesis generator. 
-                    The key insight: <strong>strong final captions are built upon accurate intermediate beliefs</strong>. 
-                    By optimizing for caption quality, we implicitly improve the model's belief tracking process.
-                </p>
-            </section>
-
-            <section id="results">
-                <h2>Results</h2>
-                
-                <h3>Surprise Localization Performance</h3>
-                <div class="results-grid">
-                    <div class="result-card">
-                        <h4>Oops! Dataset</h4>
-                        <div class="metric">62.9%</div>
-                        <p>Acc@0.25s (near human performance of 62.1%)</p>
-                    </div>
-                    <div class="result-card">
-                        <h4>FunQA Dataset</h4>
-                        <div class="metric">68.2%</div>
-                        <p>IoU score, significantly outperforming prior methods</p>
-                    </div>
-                    <div class="result-card">
-                        <h4>Mr. Bean Dataset</h4>
-                        <div class="metric">61.1%</div>
-                        <p>IoU score on our new multi-surprise benchmark</p>
-                    </div>
+                <div class="stat-box">
+                    <div class="stat-number">68.2%</div>
+                    <div class="stat-label">FunQA Dataset</div>
+                    <div class="stat-detail">IoU score</div>
                 </div>
-
-                <h3>Downstream Task Improvements</h3>
-                <p>
-                    Surprise-weighted frame sampling consistently improves performance across diverse video understanding tasks:
-                </p>
-                <ul style="margin-left: 30px; margin-bottom: 20px;">
-                    <li><strong>BlackSwan:</strong> +2.3% accuracy over uniform sampling</li>
-                    <li><strong>FunQA:</strong> +4.6% LLM-Match score</li>
-                    <li><strong>ExFunTube:</strong> +7.0% LLM-Match score</li>
-                    <li><strong>VideoMME-S:</strong> +2.7% accuracy</li>
-                    <li><strong>NextQA:</strong> +1.7% accuracy</li>
-                </ul>
-
-                <div class="highlight-box">
-                    <p>
-                        <strong>Key Finding:</strong> SPIKE-RL improves both belief diversity (+6.8% over SPIKE) and 
-                        human alignment (0.87 Spearman correlation), demonstrating that RL training enhances 
-                        the model's internal reasoning process.
-                    </p>
+                <div class="stat-box">
+                    <div class="stat-number">61.1%</div>
+                    <div class="stat-label">Mr. Bean Dataset</div>
+                    <div class="stat-detail">IoU on multi-surprise</div>
                 </div>
-            </section>
+            </div>
 
-            <section id="bibtex">
-                <h2>Citation</h2>
-                <p>If you find our work useful, please cite:</p>
-                <pre class="bibtex">@article{ravi2025spike,
+            <p>
+                On the Oops! dataset, SPIKE approaches human-level performance at localizing failure events. On FunQA, our method significantly outperforms prior approaches. We also introduce a new Mr. Bean benchmark containing videos with multiple surprising moments, where SPIKE achieves strong performance despite the increased complexity.
+            </p>
+
+            <h3>Downstream Task Performance</h3>
+
+            <p>
+                To validate that surprise-weighted sampling improves general video understanding, we evaluate on five diverse benchmarks spanning different task types and domains. In each case, we compare uniform frame sampling against our surprise-weighted approach while keeping all other factors constant.
+            </p>
+
+            <div class="task-results">
+                <div class="task-item">
+                    <div class="task-name">BlackSwan</div>
+                    <div class="task-desc">Anomalous event detection in long-form videos</div>
+                    <div class="task-gain">+2.3% accuracy</div>
+                </div>
+                <div class="task-item">
+                    <div class="task-name">FunQA</div>
+                    <div class="task-desc">Understanding creative and humorous video moments</div>
+                    <div class="task-gain">+4.6% LLM-Match</div>
+                </div>
+                <div class="task-item">
+                    <div class="task-name">ExFunTube</div>
+                    <div class="task-desc">Generating explanations for unexpected outcomes</div>
+                    <div class="task-gain">+7.0% LLM-Match</div>
+                </div>
+                <div class="task-item">
+                    <div class="task-name">VideoMME-S</div>
+                    <div class="task-desc">Short video comprehension and question answering</div>
+                    <div class="task-gain">+2.7% accuracy</div>
+                </div>
+                <div class="task-item">
+                    <div class="task-name">NextQA</div>
+                    <div class="task-desc">Causal and temporal reasoning about events</div>
+                    <div class="task-gain">+1.7% accuracy</div>
+                </div>
+            </div>
+
+            <p>
+                The consistent improvements across all benchmarks demonstrate that surprise-weighted sampling captures something fundamental about video structure. Notably, gains are substantial even on tasks that don't explicitly focus on surprising events—suggesting that informative moments tend to be surprising moments. The particularly strong results on ExFunTube (+7.0%) highlight how crucial it is to observe the unexpected events that require explanation.
+            </p>
+
+            <p>
+                These results validate a key hypothesis: by concentrating computational resources on high-information frames, we can achieve better video understanding without increasing the total number of frames processed. This has important implications for scaling video models to longer content.
+            </p>
+
+            <div class="callout">
+                <strong>Impact of reinforcement learning:</strong> SPIKE-RL improves hypothesis diversity by 6.8% over SPIKE and achieves 0.87 Spearman correlation with human surprise judgments. This demonstrates that RL training enhances not just task performance but the quality of internal model representations.
+            </div>
+
+            <h2>Discussion</h2>
+
+            <p>
+                SPIKE represents a step toward more human-like video understanding, where models actively predict upcoming events and register surprise when predictions fail. This predictive processing framework has deep connections to theories of human cognition and provides a principled approach to attention allocation in sequential data.
+            </p>
+
+            <p>
+                Future work could extend SPIKE to longer videos, incorporate multimodal signals beyond vision, and explore whether surprise-based learning can improve model capabilities more broadly. The interpretable nature of textual belief hypotheses also opens opportunities for human-in-the-loop refinement and model debugging.
+            </p>
+        </article>
+
+        <div class="bibtex-section" id="citation">
+            <h2>Citation</h2>
+            <p>If you find our work useful, please consider citing:</p>
+            <pre class="bibtex">@article{ravi2025spike,
   title={SPIKE-RL: Video-LLMs Meet Bayesian Surprise},
   author={Ravi, Sahithya and Chinchure, Aditya and Ng, Raymond T. and Sigal, Leonid and Shwartz, Vered},
   journal={arXiv preprint arXiv:2509.23433},
   year={2025}
 }</pre>
-            </section>
         </div>
 
         <footer>
