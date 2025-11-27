@@ -141,16 +141,14 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
 
 My focus is on the following interconnected areas:
 
-➊ **Spatial and Temporal Reasoning in Video-Language Models**  
-I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. I am currently working on adapting models to be resilient to such scenarios.
-Additionally, my [recent work](https://arxiv.org/pdf/2505.24257) looks at whether VLMs can reason about spatial relationships in multi-frame egocentric setitngs when equipped with 3D cues. 
+➊ **Robustness in VLMs**  
+I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am working on post-training methods that teach VLMs to be revise beliefs and become resilient to such scenarios. 
 
 ➋ **Grounded Reasoning**  
 I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
 
 ➌ **Feedback Driven Learning**  
-To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving generation.
-
+To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving image and video generation.
 
 ➍ **Inclusive Models**  
 I have worked on evaluating VLMs on retrieval and grounding in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and analyzing the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).

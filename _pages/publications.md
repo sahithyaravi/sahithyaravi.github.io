@@ -64,6 +64,13 @@ author_profile: true
   <!-- 2025 -->
   <h2 class="pub-year">2025</h2>
   <div class="publication-card">
+    <strong>Spotlight: Identifying and Localizing Video Generation Errors Using VLMs
+</strong>  
+    <span class="pub-authors"> Aditya Chinchure, <b> Sahithya Ravi </b>, Pushkar Shukla, Vered Shwartz, Leonid Sigal</span>  
+    <span class="pub-venue">preprint</span>  
+    <a href="https://arxiv.org/abs/2511.18102" class="pub-link">🔗 Paper</a>
+  </div>
+    <div class="publication-card">
     <strong>SPIKE-RL: Video LLMs meet Bayesian Surprise</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi</b>, Aditya Chinchure, Raymond Ng, Leonid Sigal, Vered Shwartz</span>  
     <span class="pub-venue">preprint</span>  
