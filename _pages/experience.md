@@ -134,7 +134,7 @@ author_profile: true
 </head>
 <body>
 
-<h2>Experience</h2>
+<!-- <h2>Experience</h2> -->
 
 <div class="timeline">
   <!-- Experience 1 -->
