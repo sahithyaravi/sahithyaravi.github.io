@@ -8,11 +8,11 @@ main:
   - title: 🏠
     url: /
 
-  # - title: "Experience"
-  #   url: /experience/
-
   - title: "Publications"
     url: /publications/
+
+  - title: "Experience"
+    url: /experience/
 
   - title: "Teaching"
     url: /teaching/    
