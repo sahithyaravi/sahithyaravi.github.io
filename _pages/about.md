@@ -12,5 +12,5 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Sp
 
 Recently, I have focused on the robustness of VLMs to unexpected scenarios and surprises. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on how they explain and adapt in unpredictable video settings. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am working on post-training methods inspired by Bayesian Theory of Mind, that teach VLMs to be revise beliefs and become resilient to novel scenarios. 
 
-If you would like to collaborate/discuss multimodal reasoning/robustness or PhD life at UBC or in general, I would like to connect X or via email.
+If you would like to collaborate on multimodal reasoning/robustness or chat about PhD life at UBC feel free to reach out on x/e-mail.
 
