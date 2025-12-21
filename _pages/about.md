@@ -15,8 +15,6 @@ My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on ab
 If you are reading this and would like to collaborate on multimodal reasoning, robustness and post-training approaches feel free to reach out. 
 
 # Experience
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
