@@ -19,11 +19,6 @@ If you are reading this and would like to collaborate on multimodal reasoning, r
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    padding: 20px;
-    background: #ffffff;
-  }
 
   /* Timeline container */
   .timeline {
