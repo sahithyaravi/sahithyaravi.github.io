@@ -8,78 +8,150 @@ redirect_from:
 
 Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) CS advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
 
-I work at the intersection of NLP, Vision and cognitively-inspired reasoning. The goal of my research is to develop robust and safe AI models that move beyond pattern recognition to achieve a deeper, context-sensitive understanding of the world. Specifically, I evaluate and improve critical reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR.
+I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Specifically, I evaluate and improve critical reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR.
+
+My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am working on post-training methods that teach VLMs to be revise beliefs and become resilient to such scenarios. 
+
+If you are reading this and would like to collaborate on multimodal reasoning, robustness and post-training approaches feel free to reach out. 
 
 # Experience
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-/* Timeline container */
-.timeline {
-  position: relative;
-  margin: 20px auto;
-}
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding: 20px;
+    background: #ffffff;
+  }
 
-/* Vertical line */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 4px;
-  top: 0;
-  bottom: 0;
-  left: 25%;
-  background: #ccc;
-  transform: translateX(-50%);
-}
+  /* Timeline container */
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 
-/* Individual timeline items */
-.timeline-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  margin: 20px 0;
-}
+  /* Vertical line */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 10px;
+    bottom: 10px;
+    left: 100px;
+    background: #e0e0e0;
+  }
 
-/* Timeline symbol (diamond) */
-.timeline-item::before {
-  content: '\25CE'; /* Unicode for a diamond (◆) */
-  position: absolute;
-  left: 25%;
-  transform: translateX(-50%);
-  font-size: 18px;
-  color: #007bff;
-  background:rgb(255, 255, 255);
-  padding: 2px;
-}
+  /* Individual timeline items */
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin: 0 0 12px 0;
+  }
 
-/* Left side (Year) */
-.timeline-year {
-  flex: 1;
-  text-align: right;
-  font-weight: bold;
-  padding-right: 10px;
-}
+  /* Timeline dot */
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 96px;
+    top: 10px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #2c2c2c;
+    z-index: 1;
+  }
 
-/* Right side (Experience card) */
-.experience-card {
-  flex: 6;
-  display: flex;
-  align-items: center;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background:rgb(255, 255, 255);
-  margin-left: 100px; /* Ensures spacing from the timeline */
-}
+  /* Year */
+  .timeline-year {
+    width: 85px;
+    text-align: right;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #888;
+    padding-top: 8px;
+    flex-shrink: 0;
+    letter-spacing: 0.3px;
+  }
 
-/* Experience logo */
-.experience-card img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin-right: 15px;
-}
+  /* Experience card */
+  .experience-card {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+    margin-left: 30px;
+    padding: 14px 18px;
+    background: #fafafa;
+    border-radius: 6px;
+    border-left: 3px solid #2c2c2c;
+    transition: all 0.25s ease;
+  }
 
+  .experience-card:hover {
+    background: #f5f5f5;
+    border-left-color: #666;
+    transform: translateX(3px);
+  }
+
+  /* Logo */
+  .experience-card img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+    opacity: 0.9;
+  }
+
+  /* Content */
+  .experience-content {
+    flex: 1;
+  }
+
+  .experience-content h3 {
+    margin: 0 0 6px 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2c2c2c;
+    letter-spacing: -0.2px;
+  }
+
+  .experience-content p {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #666;
+  }
+
+  .experience-content a {
+    color: #2c2c2c;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    text-decoration-thickness: 1px;
+    transition: all 0.2s ease;
+  }
+
+  .experience-content a:hover {
+    text-decoration-color: #2c2c2c;
+  }
+
+  h2 {
+    text-align: center;
+    color: #2c2c2c;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+  }
 </style>
+</head>
+<body>
+
+<h2>Experience</h2>
 
 <div class="timeline">
   <!-- Experience 1 -->
@@ -87,7 +159,7 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
     <div class="timeline-year">Summer 2024</div>
     <div class="experience-card">
       <img src="../images/meta_logo.png" alt="FAIR Logo">
-      <div>
+      <div class="experience-content">
         <h3>Research Intern, FAIR Communication and Language</h3>
         <p>Generating fine-grained facial expressions using semantically meaningful pose tokens, improving predictability and precise control crucial for controllable video generation.</p>
       </div>
@@ -99,7 +171,7 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
     <div class="timeline-year">Summer 2024</div>
     <div class="experience-card">
       <img src="../images/msr_logo.jpeg" alt="Microsoft Research Logo">
-      <div>
+      <div class="experience-content">
         <h3>Research Intern, Microsoft Research</h3>
         <p>Evaluating 3D spatial reasoning abilities of Vision Language Models in ego-centric videos.</p>
       </div>
@@ -111,7 +183,7 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
     <div class="timeline-year">Summer 2023</div>
     <div class="experience-card">
       <img src="../images/meta_logo.png" alt="Meta Reality Labs Logo">
-      <div>
+      <div class="experience-content">
         <h3>Research Intern, Meta Reality Labs</h3>
         <p>Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.</p>
       </div>
@@ -123,7 +195,7 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
     <div class="timeline-year">2019 - 2021</div>
     <div class="experience-card">
       <img src="../images/openml_logo.png" alt="OpenML Logo">
-      <div>
+      <div class="experience-content">
         <h3>AI Research Engineer, OpenML & TU/e</h3>
         <p>
           I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. 
@@ -137,23 +209,5 @@ I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Th
   </div>
 </div>
 
-# Research Focus
-
-My focus is on the following interconnected areas:
-
-➊ **Robustness in VLMs**  
-I have evaluated models on adapting to surprising or expectation-violating events, which is crucial for **real-world safety**. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on abductive and defeasible reasoning in unpredictable video settings, testing whether models can revise their beliefs when presented with new evidence. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am working on post-training methods that teach VLMs to be revise beliefs and become resilient to such scenarios. 
-
-➋ **Grounded Reasoning**  
-I have developed models that infer real-world events and object dynamics using world knowledge. This includes reasoning over interconnected events in [text](https://aclanthology.org/2023.findings-emnlp.861.pdf), [event coreference](https://aclanthology.org/2023.eacl-main.125), and grounded vision-language understanding [models](https://openaccess.thecvf.com/content/WACV2023/papers/Ravi_VLC-BERT_Visual_Question_Answering_With_Contextualized_Commonsense_Knowledge_WACV_2023_paper.pdf). 
-
-➌ **Feedback Driven Learning**  
-To scale complex reasoning capabilities such as creativity, which do not adhere to a step-by-step reasoning paradigm, I have worked on [feedback-driven iterative DPO](https://aclanthology.org/2024.acl-long.706.pdf) and showed that it improves performance. I am currently exploring the role of multi-aspect feedback in improving image and video generation.
-
-➍ **Inclusive Models**  
-I have worked on evaluating VLMs on retrieval and grounding in [multicultural settings](https://aclanthology.org/2024.emnlp-main.385/) and analyzing the understanding of cultural norms in LLMs ([CulturalBench](https://arxiv.org/abs/2410.02677)).
-
-If you are interested in any of the above areas, and would like to collaborate feel free to reach out. 
-
-
-<!-- Before coming to UBC, I worked as an AI research engineer in the Machine Learning group at Eindhoven University of Technology. Together with an amazing [team](https://github.com/orgs/openml/people) supervised by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/#lab) I worked on research and development of open-source software for [open and automated machine learning](https://github.com/openml). I also worked with [Mykola Pechenizkiy](https://www.win.tue.nl/~mpechen/) on active learning and interpretability of NLP models. Prior to that, I graduated from M.Sc. in Mathematics and Computer Science at Eindhoven University of technology, the Netherlands, and B.E. in Computer Engineering from PSG college of Technology, Coimbatore, India.  -->
+</body>
+</html>
