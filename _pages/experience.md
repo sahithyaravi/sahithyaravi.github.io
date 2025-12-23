@@ -16,7 +16,7 @@ author_profile: true
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 40px 20px;
   min-height: 100vh;
@@ -160,7 +160,7 @@ h1 {
 </head>
 <body>
 <div class="container">
-  <h1>Experience</h1>
+
   
   <div class="experience-grid">
     <!-- Card 1 -->
