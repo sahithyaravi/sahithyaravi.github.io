@@ -25,7 +25,7 @@ author_profile: true
     padding: 12px 16px;
     border-radius: 6px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #789DBC;
+    border-left: 5px rgb(0, 0, 0);
   }
   
   .pub-authors, .pub-venue {
