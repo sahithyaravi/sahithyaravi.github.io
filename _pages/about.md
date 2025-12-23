@@ -6,11 +6,16 @@ redirect_from:
   - /about.html
 ---
 
+
+<div class="job-market-note">
+🎯 I'm on the <strong>job market</strong> looking for <strong>full-time Research Scientist and Postdoctoral positions</strong> in multimodal reasoning and robustness. Feel free to reach out if you have opportunities or would like to chat!
+</div>
+
 Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) and the Vector Institute for AI advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
 
-I work at the intersection of NLP, Vision and cognitively-inspired reasoning. Specifically, I evaluate and improve critical reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR. I have worked on several fundamental reasoning abilties inspired by how humans reason in the world such as causal, counterfactual and commonsense reasoning. I have also worked on cultural and social norm understanding in the past.
+I work at the intersection of NLP and Computer Vision. Specifically, I evaluate and improve reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR. Drawing inspiration from human cognition, I've worked on fundamental reasoning abilities including causal, counterfactual, and commonsense reasoning, as well as cultural and social norm understanding. 
 
-Recently, I have focused on the robustness of VLMs to unexpected scenarios and surprises. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on how they explain and adapt in unpredictable video settings. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am working on post-training methods inspired by Bayesian Theory of Mind, that teach VLMs to be revise beliefs and become resilient to novel scenarios. 
+Currently, I am investigating the robustness of Video-LLMs to unexpected scenarios. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on how they explain and adapt in unpredictable video events. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I'm developing post-training methods inspired by Bayesian Theory of Mind that enable VLMs to revise their beliefs and become more resilient to novel scenarios.
 
-If you would like to collaborate on multimodal reasoning/robustness or chat about PhD life at UBC feel free to reach out on x/e-mail.
+I'd love to connect if you're interested in collaborating on multimodal reasoning or if you'd like to chat about PhD life at UBC.
 
