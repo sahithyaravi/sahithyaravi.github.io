@@ -17,7 +17,6 @@ author_profile: true
 
 body {
 
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 40px 20px;
   min-height: 100vh;
 }
@@ -58,7 +57,7 @@ h1 {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg,rgb(168, 162, 162) 0%, #764ba2 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -119,7 +118,7 @@ h1 {
 
 .period {
   display: inline-block;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg,rgb(152, 143, 143) 0%, #764ba2 100%);
   color: white;
   padding: 6px 14px;
   border-radius: 20px;
