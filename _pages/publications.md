@@ -15,7 +15,7 @@ author_profile: true
     font-size: 1.5em;
     font-weight: bold;
     color:rgb(0, 0, 0);
-    border-bottom: 2px solid #789DBC;
+    border-bottom: 2px rgb(15, 15, 15);
     margin-top: 20px;
     padding-bottom: 5px;
   }
@@ -38,7 +38,7 @@ author_profile: true
   .pub-link {
     display: inline-block;
     margin-top: 5px;
-    color: #789DBC;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
   }

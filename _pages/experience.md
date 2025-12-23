@@ -169,7 +169,7 @@ h1 {
           <img src="../images/meta_logo.png" alt="FAIR">
         </div>
         <div class="card-title-section">
-          <div class="company-name">FAIR Communication</div>
+          <div class="company-name">Meta AI (FAIR)</div>
           <div class="role-title">Research Intern</div>
         </div>
       </div>
