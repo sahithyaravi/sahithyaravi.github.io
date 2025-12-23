@@ -118,7 +118,7 @@ h1 {
 
 .period {
   display: inline-block;
-  background: linear-gradient(90deg,rgb(152, 143, 143) 0%, #764ba2 100%);
+  background: linear-gradient(90deg,rgb(152, 143, 143) 0%,rgb(18, 14, 22) 100%);
   color: white;
   padding: 6px 14px;
   border-radius: 20px;

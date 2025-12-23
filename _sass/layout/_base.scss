@@ -6,14 +6,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-/* Add this to your CSS file */
-.job-market-note {
-  background-color: #f0ecee; /* Light blue */
-  border-left: 4px solid #81787d; /* Darker blue accent */
-  padding: 15px 20px;
-  margin: 20px 0;
-  border-radius: 4px;
-}
+
 body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
