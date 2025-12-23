@@ -7,11 +7,7 @@ redirect_from:
 ---
 
 
-<div class="job-market-note">
-🎯 I'm on the <strong>job market</strong> looking for <strong>full-time Research Scientist and Postdoctoral positions</strong> in multimodal reasoning and robustness. Feel free to reach out if you have opportunities or would like to chat!
-</div>
-
-Hi! I am a Ph.D. student at the Univeristy of British Columbia (UBC) and the Vector Institute for AI advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
+Hi! I am a Ph.D. candidate at the Univeristy of British Columbia (UBC) and the Vector Institute for AI advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
 
 I work at the intersection of NLP and Computer Vision. Specifically, I evaluate and improve reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR. Drawing inspiration from human cognition, I've worked on fundamental reasoning abilities including causal, counterfactual, and commonsense reasoning, as well as cultural and social norm understanding. 
 
