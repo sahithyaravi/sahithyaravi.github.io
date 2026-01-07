@@ -13,3 +13,4 @@ I work at the intersection of NLP and Computer Vision. Specifically, I evaluate 
 
 Currently, I am investigating the robustness of Video-LLMs to unexpected scenarios. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on how they explain and adapt in unpredictable video events. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am developing post-training methods inspired by Bayesian Theory of Mind that enable VLMs to revise their beliefs and become more resilient to novel scenarios.
 
+During my PhD, I have had the opportunity to intern at several industry research groups, including FAIR (Meta) with [Vasu Sharma]() and LP Morency (Summer 2024); Microsoft Research with Bala Kumaravel, Andy Wilson and Vibhav Vineet (Summer 2024); Meta Reality Labs with Arash Einolgozhati, Akshat Srivatsava and Patrick Huber (Summer 2023).
