@@ -79,7 +79,8 @@ author_profile: true
   <div class="publication-card">
     <strong>Position, World Models must live in parallel worlds</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup>, Vered Shwartz, Leonid Sigal, </span>  
-    <span class="pub-venue">Law @Neurips 2025</span>  
+    <span class="pub-venue">Law @Neurips 2025</span>  <a href="https://openreview.net/pdf?id=sj9Nyke43S" class="pub-link">🔗 Paper</a>
+    <a href="https://x.com/Sahithya_Ravi/status/1997130777612665102?s=20" class="pub-link">Summary Tweet</a>
   </div>
   <div class="publication-card">
     <strong>Out of Sight, Not Out of Context? Egocentric Spatial Reasoning in VLMs Across Disjoint Frames</strong>  
@@ -108,6 +109,7 @@ author_profile: true
     <span class="pub-venue">CVPR 2025</span>  
     <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chinchure_Black_Swan_Abductive_and_Defeasible_Video_Reasoning_in_Unpredictable_Events_CVPR_2025_paper.pdf" class="pub-link">🔗 Paper</a>
     <a href="https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread?r=8tdk6&utm_campaign=post&utm_medium=web&triedRedirect=true" class="pub-link">🗞️ Media</a>
+    <a href="https://x.com/Sahithya_Ravi/status/1909370141327884633?s=20" class="pub-link">Summary Tweet</a>
     
   </div>
 
@@ -126,6 +128,7 @@ author_profile: true
     <span class="pub-authors"><b>Sahithya Ravi</b>, Patrick Huber, Akshat Shrivastava, Vered Shwartz</span>  
     <span class="pub-venue">ACL 2024</span>  
     <a href="https://aclanthology.org/2024.acl-long.706.pdf" class="pub-link">🔗 Paper</a>
+    <a href="https://x.com/Sahithya_Ravi/status/1822888258717745333?s=20" class="pub-link">Summary Tweet</a>
   </div>
 
   <div class="publication-card">
