@@ -61,7 +61,6 @@ author_profile: true
 <div class="publications-container">
   <!-- 2026 -->
   <h2 class="pub-year">2026</h2>
-  </div>
     <div class="publication-card">
     <strong>SPIKE-RL: Video LLMs meet Bayesian Surprise</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi</b>, Aditya Chinchure, Raymond Ng, Leonid Sigal, Vered Shwartz</span>  
