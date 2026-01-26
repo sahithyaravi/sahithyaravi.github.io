@@ -60,6 +60,7 @@ author_profile: true
 
 <div class="publications-container">
   <!-- 2026 -->
+  <h2 class="pub-year">2026</h2>
   </div>
     <div class="publication-card">
     <strong>SPIKE-RL: Video LLMs meet Bayesian Surprise</strong>  
@@ -75,6 +76,7 @@ author_profile: true
     <span class="pub-authors"> Aditya Chinchure, <b> Sahithya Ravi </b>, Pushkar Shukla, Vered Shwartz, Leonid Sigal</span>  
     <span class="pub-venue">preprint</span>  
     <a href="https://arxiv.org/abs/2511.18102" class="pub-link">🔗 Paper</a>
+      </div>
   <div class="publication-card">
     <strong>Position, World Models must live in parallel worlds</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup>, Vered Shwartz, Leonid Sigal, </span>  
