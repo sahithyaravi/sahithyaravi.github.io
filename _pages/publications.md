@@ -73,7 +73,7 @@ author_profile: true
     <div class="publication-card">
     <strong>SPIKE-RL: Video LLMs meet Bayesian Surprise</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi</b>, Aditya Chinchure, Raymond Ng, Leonid Sigal, Vered Shwartz</span>  
-    <span class="pub-venue">preprint</span>  
+    <span class="pub-venue">ICLR 2026</span>  
     <a href="https://www.arxiv.org/pdf/2509.23433" class="pub-link">🔗 Paper</a>
   </div>
   <div class="publication-card">
