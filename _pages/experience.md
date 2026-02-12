@@ -176,6 +176,7 @@ h1 {
       <div class="period">Summer 2024</div>
       <div class="description">
         Generating fine-grained facial expressions using semantically meaningful pose tokens, improving predictability and precise control crucial for controllable video generation.
+        Mentors: Vasu Sharma & LP Morency
       </div>
     </div>
 
@@ -193,6 +194,7 @@ h1 {
       <div class="period">Summer 2024</div>
       <div class="description">
         Evaluating 3D spatial reasoning abilities of Vision Language Models in ego-centric videos.
+        Mentors: Bala Kumaravel, Andy Wilson & Vibhav Vineet
       </div>
     </div>
 
@@ -210,6 +212,7 @@ h1 {
       <div class="period">Summer 2023</div>
       <div class="description">
         Iterative-DPO and ranking methods for teaching creative abilities to smaller LMs.
+        Mentors: Arash Einolgozhati, Patrick Huber
       </div>
     </div>
 
