@@ -9,11 +9,9 @@ redirect_from:
 
 Hi! I am a Ph.D. candidate at the Univeristy of British Columbia (UBC) and the Vector Institute for AI advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
 
-I work at the intersection of NLP and Computer Vision. Specifically, I evaluate and improve reasoning capabilities across multiple modalities (text, images, videos) - which are fundamental for safe and effective deployment in real-world applications such as embodied agents and AR/VR. Drawing inspiration from human cognition, I have worked on fundamental reasoning abilities including causal, counterfactual, and commonsense reasoning, as well as cultural and social norm understanding. 
+My research focuses on enabling models to reason about the visual world beyond what is **explicitly** shown, similar to how humans build mental models. I study how Vision-Language Models (VLMs) infer implicit information such as unseen object properties, spatial relations, and causal dynamics. Currently, I am investigating how models update their internal beliefs when they encounter [surprising  events](https://arxiv.org/abs/2509.23433) in video streams.
 
-Currently, I am investigating the robustness of Video-LLMs to unexpected scenarios. My recent work [Black Swan](https://blackswan.cs.ubc.ca/) evaluates models on how they explain and adapt in unpredictable video events. In my ongoing work [SPIKE](https://www.arxiv.org/pdf/2509.23433), I am developing post-training methods inspired by Bayesian Theory of Mind that enable VLMs to revise their beliefs and become more resilient to novel scenarios.
-
-During my PhD, I have had the opportunity to intern at several industry research groups, including FAIR (Meta) with Vasu Sharma and LP Morency (Summer 2024); Microsoft Research with Bala Kumaravel, Andy Wilson and Vibhav Vineet (Summer 2024); Meta Reality Labs with Arash Einolgozhati, Akshat Srivatsava and Patrick Huber (Summer 2023).
+During my PhD, I have had the opportunity to intern at industry research groups, including FAIR (Meta), Microsoft Research in Summer 2024 and Meta Reality labs in Summer 2023.
 
 <div class="news-section">
   <h2>Updates</h2>
