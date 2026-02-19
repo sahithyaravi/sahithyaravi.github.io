@@ -126,7 +126,7 @@ author_profile: true
   <div class="publication-card">
     <strong>Small But Funny: A Feedback-Driven Approach to Humor Distillation</strong>  
     <span class="pub-authors"><b>Sahithya Ravi</b>, Patrick Huber, Akshat Shrivastava, Vered Shwartz</span>  
-    <span class="pub-venue">ACL 2024</span>  
+    <span class="pub-venue">ACL 2024 (Oral) </span>  
     <a href="https://aclanthology.org/2024.acl-long.706.pdf" class="pub-link">🔗 Paper</a>
     <a href="https://x.com/Sahithya_Ravi/status/1822888258717745333?s=20" class="pub-link">Summary Tweet</a>
   </div>
@@ -157,7 +157,7 @@ author_profile: true
   <div class="publication-card">
     <strong>What Happens Before and After: Multi-Event Commonsense in Event Coreference Resolution</strong>  
     <span class="pub-authors"><b>Sahithya Ravi</b>, Chris Tanner, Raymond Ng, and Vered Shwartz</span>  
-    <span class="pub-venue">EACL 2023</span>  
+    <span class="pub-venue">EACL 2023 (Oral) </span>  
     <a href="https://arxiv.org/pdf/2302.09715.pdf" class="pub-link">🔗 Paper</a>
   </div>
 
