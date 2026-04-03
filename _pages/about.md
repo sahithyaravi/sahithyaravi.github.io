@@ -9,8 +9,7 @@ redirect_from:
 
 Hi! I am a Ph.D. candidate at the Univeristy of British Columbia (UBC) and the Vector Institute for AI advised by [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) and [Raymond NG](https://www.cs.ubc.ca/people/raymond-ng) in the [Natural Language Processing group](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/). I frequently collaborate with [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) in the Computer Vision group.
 
-My research focuces on evaluating and improving reasoning abilities of Vision and Language Models (VLMs).
-Currently, I am investigating how models update their hypotheses when they encounter [surprising  events](https://arxiv.org/abs/2509.23433) in video streams.
+My research focuses on evaluating and improving reasoning abilities of VLMs/LLMs especially in implicit and subjective contexts. Currently, I am investigating how models update their hypotheses when they encounter [surprising  events](https://arxiv.org/abs/2509.23433) in video streams.
 
 During my PhD, I have had the opportunity to intern at FAIR (Meta AI) & Microsoft Research in Summer 2024 and Meta Reality labs in Summer 2023.
 
