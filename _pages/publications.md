@@ -67,15 +67,15 @@ author_profile: true
     <span class="pub-venue">ICLR 2026</span>  
     <a href="https://www.arxiv.org/pdf/2509.23433" class="pub-link">🔗 Paper</a>
   </div>
-  <!-- 2025 -->
-  <h2 class="pub-year">2025</h2>
+    <h2 class="pub-year">2026</h2>
   <div class="publication-card">
     <strong>Spotlight: Identifying and Localizing Video Generation Errors Using VLMs
 </strong>  
     <span class="pub-authors"> Aditya Chinchure, <b> Sahithya Ravi </b>, Pushkar Shukla, Vered Shwartz, Leonid Sigal</span>  
-    <span class="pub-venue">preprint</span>  
+    <span class="pub-venue">ECCV 2026</span>  
     <a href="https://arxiv.org/abs/2511.18102" class="pub-link">🔗 Paper</a>
       </div>
+  <!-- 2025 -->
   <div class="publication-card">
     <strong>Position, World Models must live in parallel worlds</strong>  
     <span class="pub-authors"> <b>Sahithya Ravi<sup>◆</sup></b>, Aditya Chinchure<sup>◆</sup>, Vered Shwartz, Leonid Sigal, </span>  
