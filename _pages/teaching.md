@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching & Talks"
+title: "Teaching/Talks"
 permalink: /teaching/
 author_profile: true
 ---
@@ -9,14 +9,14 @@ author_profile: true
 
 ## Teaching
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- **CPSC 532V: Commonsense Reasoning in Natural Language Processing**, Teaching Assistant 2022-2024.
 
 ## Talks
-
-- **Reasoning Beyond What's Visible**, University of California, Los Angeles, March 2026.
-- **Reasoning Beyond What's Visible**, University of Washington, Feb 2026.
+- **Localizing Unexpected Events in Real & Generated Videos**, PoketFM, July 2026.
+- **Reasoning Beyond What's Visible**, NLP group at New York University, March 2026.
+- **Reasoning Beyond What's Visible**, NLP group at University of California, Los Angeles, March 2026.
+- **Reasoning Beyond What's Visible**, Computer Vision Group, University of Washington, Feb 2026.
 - **Evaluating Video Language Models**, Vector Summer School, 2025.
-- **Multimodal Commonsense**, UBC CPSC 532V, 2024, 2025.
+- **Guest Lectures on Multimodal Commonsense**, UBC, Spring 2024 & Spring 2025.
 - **Small But Funny: A Feedback-Driven Approach to Humor Distillation**, ACL 2024.
+
